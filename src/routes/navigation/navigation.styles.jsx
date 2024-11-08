@@ -74,6 +74,11 @@ export const Brand = styled.h1`
     bottom: 23px; /* Adjust position for mobile screens */
     font-size: 0.9rem; /* Reduce font size for mobile devices */
   }
+
+  @media (max-width: 350px) {
+    bottom: 23px; /* Adjust position for mobile screens */
+    font-size: 0.7rem; /* Reduce font size for mobile devices */
+  }
 `;
 
 export const MenuButton = styled.button`
@@ -97,6 +102,11 @@ export const MenuButton = styled.button`
   @media (max-width: 480px) {
     bottom: 23px; /* Adjust position for mobile screens */
     font-size: 1rem; /* Reduce font size for mobile devices */
+  }
+
+  @media (max-width: 350px) {
+    bottom: 23px; /* Adjust position for mobile screens */
+    font-size: 0.7rem; /* Reduce font size for mobile devices */
   }
 `;
 
@@ -151,10 +161,15 @@ export const Heading = styled.h2`
     font-size: 1rem; /* Smaller font for mobile screens */
     top: 7px;
   }
+
+  @media (max-width: 350px) {
+    position: relative;
+    font-size: 0.6rem; /* Smaller font for mobile screens */
+    top: 12px;
+  }
 `;
 
 export const Subtext = styled.p`
-  position: relative;
   font-size: 0.97rem;
   color: black;
   margin-bottom: 2rem;
@@ -178,6 +193,13 @@ export const Subtext = styled.p`
     margin-bottom: 1rem;
     top: 3px;
   }
+
+  @media (max-width: 350px) {
+    position: relative;
+    font-size: 0.37rem; /* Smallest font for mobile screens */
+    margin-bottom: 1rem;
+    bottom: 104rem;
+  }
 `;
 
 export const DownloadButton = styled.a`
@@ -188,7 +210,8 @@ export const DownloadButton = styled.a`
    @media (max-width: 480px) {
     left: 3px; /* Adjust position for smaller screens */
     bottom: 3px; /* Adjust position for smaller screens */
-`;
+
+    `;
 
 export const Icon = styled.img`
   width: 180px;
@@ -197,8 +220,15 @@ export const Icon = styled.img`
 
    @media (max-width: 480px) {
     position: relative;
-    width: 80px; /* Adjust width for smaller screens */
-    height: 30px; /* Adjust height for smaller screens */
+    width: 60px; /* Adjust width for smaller screens */
+    height: 22px; /* Adjust height for smaller screens */
+    right: 4px; /* Reduce margin for better spacing */
+  }
+
+    @media (max-width: 350px) {
+    position: relative;
+    width: 40px; /* Adjust width for smaller screens */
+    height: 15px; /* Adjust height for smaller screens */
     right: 4px; /* Reduce margin for better spacing */
   }
 `;
@@ -243,5 +273,10 @@ export const ModelImage = styled.img`
     height: 16rem; /* Reduce height for mobile screens */
     bottom: 20px;
     }
-
+  
+  @media (max-width: 350px) {
+    position: relative;
+    height: 12rem; /* Reduce height for mobile screens */
+    bottom: 20px;
+    }
 `;
