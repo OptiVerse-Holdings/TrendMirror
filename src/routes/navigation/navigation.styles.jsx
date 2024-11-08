@@ -137,8 +137,15 @@ export const Content = styled.div`
 `;
 
 export const TextContent = styled.div`
+  position: relative;
   flex: 1;
   max-width: 50%;
+  bottom: rem;
+
+    @media (max-width: 350px) {
+    position: relative;
+    bottom: 17px;
+  }
 `;
 
 export const Heading = styled.h2`
@@ -149,11 +156,11 @@ export const Heading = styled.h2`
 
    /* Responsive font size adjustments */
   @media (max-width: 1024px) {
-    font-size: 2.4rem; /* Slightly smaller font for medium screens */
+    font-size: 2rem; /* Slightly smaller font for medium screens */
   }
 
   @media (max-width: 768px) {
-    font-size: 2rem; /* Smaller font for small screens */
+    font-size: 1.5rem; /* Smaller font for small screens */
   }
 
   @media (max-width: 480px) {
@@ -165,7 +172,7 @@ export const Heading = styled.h2`
   @media (max-width: 350px) {
     position: relative;
     font-size: 0.6rem; /* Smaller font for mobile screens */
-    top: 12px;
+    top: 14px;
   }
 `;
 
@@ -198,24 +205,36 @@ export const Subtext = styled.p`
     position: relative;
     font-size: 0.37rem; /* Smallest font for mobile screens */
     margin-bottom: 1rem;
-    bottom: 104rem;
   }
 `;
 
 export const DownloadButton = styled.a`
   position: relative;
-  left: 7px;
+  left: 1px;
   bottom: 6px;
+   
+   @media (max-width: 1024px) {
+    left: 1px; /* Adjust position for smaller screens */
+    bottom: 3px; /* Adjust position for smaller screens */
+   };
 
    @media (max-width: 480px) {
     left: 3px; /* Adjust position for smaller screens */
     bottom: 3px; /* Adjust position for smaller screens */
+   }
     `;
 
 export const Icon = styled.img`
   width: 180px;
   height: 50px;
   margin-right: 8px;
+  
+   @media (max-width: 1024px) {
+    position: relative;
+    width: 120px; /* Adjust width for smaller screens */
+    height: 42px; /* Adjust height for smaller screens */
+    right: 4px; /* Reduce margin for better spacing */
+  };
 
    @media (max-width: 480px) {
     position: relative;
@@ -235,8 +254,6 @@ export const Icon = styled.img`
 export const ImageContent = styled.div`
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
 
    @media (max-width: 1024px) {
     flex: 0.8; /* Slightly reduce the flex ratio on medium screens */
@@ -255,7 +272,7 @@ export const ImageContent = styled.div`
 `;
 
 export const ModelImage = styled.img`
-  max-width: 100%;
+  max-width: 150%;
   height: 34rem;
 
     @media (max-width: 1024px) {
