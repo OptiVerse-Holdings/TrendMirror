@@ -210,7 +210,6 @@ export const DownloadButton = styled.a`
    @media (max-width: 480px) {
     left: 3px; /* Adjust position for smaller screens */
     bottom: 3px; /* Adjust position for smaller screens */
-
     `;
 
 export const Icon = styled.img`
@@ -258,7 +257,6 @@ export const ImageContent = styled.div`
 export const ModelImage = styled.img`
   max-width: 100%;
   height: 34rem;
-  object-fit: cover;
 
     @media (max-width: 1024px) {
     height: 30rem; /* Adjust height for medium screens */
