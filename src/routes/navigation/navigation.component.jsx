@@ -6,6 +6,9 @@ import  Appp from '../../assets/AppD.png';
 import  Apppp from '../../assets/stand.png';
 
 const Navigation = () => {
+  const text = "Discover your perfect fit and get personalized recommendations, curated just for you. Unlock your dream wardrobe with customized style suggestions.";
+  const words = text.split(' ');
+  
   return (
     <Fragment>
     <HeroContainer>
@@ -17,7 +20,11 @@ const Navigation = () => {
         <TextContent>
           <Heading>Unlock your personal style with AI-powered Fashion.</Heading>
           <Subtext>
-            Discover your perfect fit and get personalized recommendations, curated just for you. Unlock your dream wardrobe with customized style suggestions.
+          {words.map((word, index) => (
+              <span key={index} style={{ '--index': index }}>
+                {word}&nbsp;
+              </span>
+            ))}
           </Subtext>
           <DownloadButton href="#">
             <Icon src={Appp} />

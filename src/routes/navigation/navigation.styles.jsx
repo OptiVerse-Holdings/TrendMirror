@@ -1,4 +1,15 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const wordFadeIn = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
 
 // Styled components for layout
 export const HeroContainer = styled.div`
@@ -181,6 +192,13 @@ export const Subtext = styled.p`
   color: black;
   margin-bottom: 2rem;
   bottom: 6px;
+
+   span {
+    display: inline-block;
+    opacity: 0;
+    animation: ${wordFadeIn} 0.5s forwards;
+    animation-delay: calc(var(--index) * 0.3s); /* Stagger animation */
+  }
 
 
   /* Responsive font size and margin adjustments */
