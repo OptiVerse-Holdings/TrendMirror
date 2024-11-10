@@ -13,24 +13,21 @@ const fadeInUp = keyframes`
 
 export const FeaturesSection = styled.section`
   position: relative;
-  padding: 0rem 2rem;
+  padding: 0rem 0rem;
   text-align: center;
   background-color: white;
   bottom: 7.8rem;
-  left: 0.8rem;
-  width: 100%;
-  max-width: 1200px; /* Limits the width on larger screens */
-
+  left: 5.8rem;
 
    @media (max-width: 1024px) {
     bottom: 6rem; /* Adjust for medium screens */
-    left: 2rem;
+    left: 4rem;
     padding: 0rem 1.5rem;
   }
 
   @media (max-width: 768px) {
     bottom: 4rem; /* Further adjust for tablets */
-    left: 1.6rem;
+    left: 2.3rem;
     padding: 0rem 1rem; 
   }
 
