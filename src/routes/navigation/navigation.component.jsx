@@ -35,6 +35,7 @@ const Navigation = () => {
         </ImageContent>
       </Content>
     </HeroContainer>
+    <Outlet/>
     </Fragment>
 
   );
