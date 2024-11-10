@@ -13,7 +13,7 @@ const fadeInUp = keyframes`
 
 export const FeaturesSection = styled.section`
   position: relative;
-  padding: 0rem 2rem;
+  padding: 0rem 0rem;
   text-align: center;
   background-color: white;
   bottom: 7.8rem;
