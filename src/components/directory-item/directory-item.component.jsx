@@ -33,7 +33,7 @@ const DirectoryItem = () => {
             <FeatureTitle>{feature.title}</FeatureTitle>
             <FeatureDescription>{feature.description}</FeatureDescription>
           </FeatureCard>
-        ))}
+        ))}  
       </FeaturesGrid>
     </FeaturesSection>
   );

@@ -106,7 +106,7 @@ export const FeatureCard = styled.div`
   animation: ${fadeInUp} 0.8s ease-out forwards;
   animation-delay: ${({ delay }) => delay || '0s'}; /* Add delay for staggering */
 
-
+  
    @media (max-width: 1024px) {
     max-width: 260px; /* Adjust card width for medium screens */
     padding: 1.3rem; /* Reduce padding */
