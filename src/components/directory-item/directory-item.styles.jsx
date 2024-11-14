@@ -17,11 +17,11 @@ export const FeaturesSection = styled.section`
   text-align: center;
   background-color: white;
   bottom: 7.8rem;
-  left: 5.8rem;
+  left: 10.2rem;
 
    @media (max-width: 1024px) {
     bottom: 6rem; /* Adjust for medium screens */
-    left: 4rem;
+    left: 6.5rem;
     padding: 0rem 1.5rem;
   }
 
@@ -33,7 +33,7 @@ export const FeaturesSection = styled.section`
 
   @media (max-width: 480px) {
     bottom: 2rem; /* Adjust for small screens */
-    left: 1rem;
+    left: 1.55rem;
     padding: 0rem 0.8rem; 
   }
 
