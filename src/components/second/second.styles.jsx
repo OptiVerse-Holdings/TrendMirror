@@ -269,6 +269,7 @@ export const ServiceImage = styled.img`
 
   @media (max-width: 350px) {
     left: 6.6rem;
+    height: 100%; /* Let height adjust dynamically */
     width: 32%; /* Full width for extra-small screens */
     top: 3px; /* Minimal bottom offset */
   }
@@ -305,6 +306,7 @@ export const ErviceImage = styled.img`
 
   @media (max-width: 350px) {
     right: 6.6rem;
+    height: 100%; /* Let height adjust dynamically */
     width: 32%; /* Full width for extra-small screens */
     bottom: 162px; /* Minimal bottom offset */
   }
@@ -341,6 +343,7 @@ export const RviceImage = styled.img`
 
   @media (max-width: 350px) {
     left: 6.6rem;
+    height: 100%; /* Let height adjust dynamically */
     width: 32%; /* Full width for extra-small screens */
     bottom: 190px; /* Minimal bottom offset */
   }
@@ -378,6 +381,7 @@ export const ViceImage = styled.img`
 
   @media (max-width: 350px) {
     left: 4.4rem;
+    height: 100%; /* Let height adjust dynamically */
     width: 32%; /* Full width for extra-small screens */
     bottom: 480px; /* Minimal bottom offset for small screens */
   }
