@@ -461,8 +461,8 @@ export const ServiceContent = styled.div`
     }
 
     @media (max-width: 350px) {
-      left: 3.7rem; /* Minimal adjustment for extra-small screens */
-      width: 9rem;
+      left: 8rem; /* Minimal adjustment for extra-small screens */
+      width: 55%;
       text-align: center;
       font-size: 0.4rem;
       text-align: left;
@@ -497,6 +497,7 @@ h3 {
     }
 
     @media (max-width: 480px) {
+      text-align: cemter;
       left: 6rem; /* Adjust for mobile screens */
       font-size: 0.7rem;
       bottom: 4rem;
@@ -504,8 +505,7 @@ h3 {
     }
 
     @media (max-width: 350px) {
-      text-align: center;
-      width: 12rem;
+      text-align: cemter;
       left: 8.7rem; /* Minimal adjustment for extra-small screens */
       font-size: 0.7rem;
       bottom: 4.5rem;
@@ -544,12 +544,12 @@ h3 {
       width: 25%; /* Make it more fluid for smaller screens */
       bottom: 4.1rem;
       font-size: 0.5rem;
-      text-align: left;
+      text-align: center;
     }
 
     @media (max-width: 350px) {
-      left: 13rem; /* Minimal adjustment for extra-small screens */
-      width: 18rem; /* Maximize width for very small screens */
+      left: 10rem; /* Minimal adjustment for extra-small screens */
+      width: 23vw; /* Maximize width for very small screens */
       bottom: 5rem;
       font-size: 0.4rem;
       
