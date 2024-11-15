@@ -456,7 +456,7 @@ export const ServiceContent = styled.div`
       left: 13rem; /* Adjust for mobile screens */
       width: 44%; /* Make it more fluid for smaller screens */
       font-size: 0.5rem;
-      text-align: left;
+      text-align: center;
       bottom: 100px;
     }
 
