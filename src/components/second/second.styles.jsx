@@ -540,7 +540,7 @@ h3 {
     }
 
     @media (max-width: 480px) {
-      left: 9.1rem; /* Adjust for mobile screens */
+      left: 12.1rem; /* Adjust for mobile screens */
       width: 25%; /* Make it more fluid for smaller screens */
       bottom: 4.1rem;
       font-size: 0.5rem;
