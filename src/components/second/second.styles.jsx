@@ -462,7 +462,7 @@ export const ServiceContent = styled.div`
 
     @media (max-width: 350px) {
       left: 8rem; /* Minimal adjustment for extra-small screens */
-      width: 55%;
+      width: 60%;
       text-align: center;
       font-size: 0.4rem;
       text-align: left;
