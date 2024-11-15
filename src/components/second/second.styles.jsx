@@ -388,7 +388,7 @@ export const ViceImage = styled.img`
 `;
 
 export const ServiceContent = styled.div`
-  text-align: left;
+  text-align: center;
 
   h3 {
     position: relative;
