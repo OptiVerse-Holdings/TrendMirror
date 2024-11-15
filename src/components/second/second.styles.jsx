@@ -418,6 +418,8 @@ export const ServiceContent = styled.div`
       }
 
     @media (max-width: 350px) {
+      text-align: center;
+      position: relative;
       left: 1.3rem; /* Minimal adjustment for extra-small screens */
       font-size: 0.7rem;
       bottom: 60px;
@@ -461,6 +463,7 @@ export const ServiceContent = styled.div`
     @media (max-width: 350px) {
       left: 8rem; /* Minimal adjustment for extra-small screens */
       width: 55%;
+      text-align: center;
       font-size: 0.4rem;
       text-align: left;
       bottom: 70px;
@@ -501,6 +504,8 @@ h3 {
     }
 
     @media (max-width: 350px) {
+      text-align: center;
+      width: 12rem;
       left: 8.7rem; /* Minimal adjustment for extra-small screens */
       font-size: 0.7rem;
       bottom: 4.5rem;
@@ -543,10 +548,11 @@ h3 {
     }
 
     @media (max-width: 350px) {
-      left: 10rem; /* Minimal adjustment for extra-small screens */
-      width: 23%; /* Maximize width for very small screens */
+      left: 11.6rem; /* Minimal adjustment for extra-small screens */
+      width: 8rem; /* Maximize width for very small screens */
       bottom: 5rem;
       font-size: 0.4rem;
+      
     }
   }
 `;
