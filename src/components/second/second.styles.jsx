@@ -540,7 +540,7 @@ h3 {
     }
 
     @media (max-width: 480px) {
-      left: 12.1rem; /* Adjust for mobile screens */
+      left: 9.1rem; /* Adjust for mobile screens */
       width: 25%; /* Make it more fluid for smaller screens */
       bottom: 4.1rem;
       font-size: 0.5rem;
@@ -548,8 +548,8 @@ h3 {
     }
 
     @media (max-width: 350px) {
-      left: 11.6rem; /* Minimal adjustment for extra-small screens */
-      width: 8rem; /* Maximize width for very small screens */
+      left: 13rem; /* Minimal adjustment for extra-small screens */
+      width: 18rem; /* Maximize width for very small screens */
       bottom: 5rem;
       font-size: 0.4rem;
       
