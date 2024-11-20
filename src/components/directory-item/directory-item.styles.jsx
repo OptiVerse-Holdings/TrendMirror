@@ -12,44 +12,45 @@ const fadeInUp = keyframes`
 `;
 
 export const FeaturesSection = styled.section`
+  display: flex;
+  flex-direction: column;
   position: relative;
   padding: 0rem 0rem;
   text-align: center;
   background-color: white;
   bottom: 7.8rem;
-  left: 10.2rem;
-    max-width: 1200px; /* Limits the width on larger screens */
-
-
+  width: 100%;
+  
    @media (max-width: 1024px) {
     bottom: 6rem; /* Adjust for medium screens */
     left: 6.5rem;
     padding: 0rem 1.5rem;
+        width: 250%; 
+
   }
 
   @media (max-width: 768px) {
     bottom: 4rem; /* Further adjust for tablets */
     left: 2.3rem;
     padding: 0rem 1rem; 
-      max-width: 1200px; /* Limits the width on larger screens */
+        width: 250%; 
 
   }
 
   @media (max-width: 480px) {
     bottom: 2rem; /* Adjust for small screens */
     left: 1.55rem;
-    padding: 0rem 0.8rem; 
-      max-width: 1200px; /* Limits the width on larger screens */
-
+    padding: 0rem 0.8rem;
+        width: 250%; 
+ 
   }
 
   @media (max-width: 350px) {
-    bottom: 1rem; /* Minimal adjustment for extra-small screens */
+  
+    bottom: 3.5rem; /* Minimal adjustment for extra-small screens */
     left: 1.6rem;
     padding: 0rem 0.5rem;
-    width: 200%; 
-      max-width: 1200px; /* Limits the width on larger screens */
-
+    width: 250%; 
   }
 `;
 
