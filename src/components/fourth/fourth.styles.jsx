@@ -40,6 +40,13 @@ export const SectionTitle = styled.h1`
     right: 3.3rem;
   }
   
+   @media (max-width: 360px) {
+    position: relative;
+    font-size: 0.8rem;
+    right: 4.3rem;
+    bottom: 10rem;
+  }
+
    @media (max-width: 350px) {
     position: relative;
     font-size: 0.8rem;
@@ -72,12 +79,18 @@ export const SectionSubtitle = styled.p`
     right: 3.3rem;
   }
 
+      @media (max-width: 360px) {
+    position: relative;
+    font-size: 0.4rem;
+    right: 4.3rem;
+    bottom: 10.8rem;
+  }
+
     @media (max-width: 350px) {
     position: relative;
     font-size: 0.4rem;
     right: 4.3rem;
     bottom: 10.8rem;
-
   }
 `;
 
@@ -104,6 +117,14 @@ export const FAQContainer = styled.div`
   width: 360px;
   margin: 0 auto;
   right: 3.1rem;
+  }
+
+    @media (max-width: 360px) {
+  position: relative;
+  width: 260px;
+  margin: 0 auto;
+  right: 4.1rem;
+  bottom: 11.4rem;
   }
 
    @media (max-width: 350px) {
@@ -137,8 +158,13 @@ export const FAQHeader = styled.div`
   position: relative;
   font-size: 0.9rem;
   }
+  
+   @media (max-width: 360px) {
+  position: relative;
+  font-size: 0.7rem;
+  }
 
-   @media (max-width: 480px) {
+   @media (max-width: 350px) {
   position: relative;
   font-size: 0.7rem;
   }
@@ -170,6 +196,11 @@ export const IconWrapper = styled.div`
    @media (max-width: 480px) {
   position: relative;
   font-size: 0.6rem;
+  }
+
+   @media (max-width: 360px) {
+  position: relative;
+  font-size: 0.4rem;
   }
 
   @media (max-width: 350px) {
