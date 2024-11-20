@@ -51,6 +51,13 @@ export const SectionTitle = styled.h2`
     padding-right: 50rem; 
 
   }
+ @media (max-width: 360px) {
+    font-size: 0.8rem;
+    margin-bottom: 2.6rem; /* Reduce bottom margin */
+    padding: 0 0.5rem; 
+    padding-right: 57.5rem; 
+
+}
 
   @media (max-width: 350px) {
     font-size: 0.3rem;
