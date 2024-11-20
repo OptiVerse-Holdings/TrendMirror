@@ -16,6 +16,23 @@ export const FAQSection = styled.section`
     position: relative;
     left: 4.3rem;
   }
+
+  
+   @media (max-width: 370px) {
+    position: relative;
+    left: 4.3rem;
+  }
+  
+   @media (max-width: 360px) {
+    position: relative;
+    left: 5.3rem;
+  }
+
+  
+   @media (max-width: 350px) {
+    position: relative;
+    left: 4.3rem;
+  }
 `;
 
 export const SectionTitle = styled.h1`
@@ -40,6 +57,13 @@ export const SectionTitle = styled.h1`
     right: 3.3rem;
   }
   
+    @media (max-width: 370px) {
+    position: relative;
+    font-size: 0.8rem;
+    right: 4.3rem;
+    bottom: 10rem;
+  }
+
    @media (max-width: 360px) {
     position: relative;
     font-size: 0.8rem;
