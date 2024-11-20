@@ -9,20 +9,16 @@ export const TestimonialSection = styled.section`
   left: 1rem;
 
    @media (max-width: 1024px) {
-    position: relative;
-    padding: 4rem 0rem;
-    left: 0rem;
+    padding: 3rem 0.5rem; /* Adjust padding for medium screens */
   }
 
   @media (max-width: 768px) {
-    position: relative;
-    padding: 4rem 0rem;
+    padding: 2rem 0.5rem; /* Smaller padding for smaller screens */
   }
 
-   @media (max-width: 350px) {
-    position: relative;
-    bottom: 2rem;
-    }
+  @media (max-width: 350px) {
+    padding: 1.5rem 0.5rem; /* Tight padding for very small screens */
+  }
 `;
 
 export const SectionTitle = styled.h2`
@@ -31,34 +27,37 @@ export const SectionTitle = styled.h2`
   font-weight: bold;
   bottom: 2rem;
   margin-bottom: 1.5rem;
+   text-align: center; 
+    padding: 0 1rem;
 
-    @media (max-width: 1024px) {
-      align-items: center;
-
-    right: 6.2rem;
-    padding: 0rem 1.5rem;
+  @media (max-width: 1024px) {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    padding: 0 1.5rem;
+    padding-right: 14rem; 
   }
 
   @media (max-width: 768px) {
-       align-items: center;
-
-      font-size: 1.6rem;   
-      right: 14.2rem;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+     padding: 0 0.5rem; 
+    padding-right: 31rem; 
   }
 
-   @media (max-width: 480px) {
-     align-items: center;
-
-    right: 23.2rem;
+  @media (max-width: 480px) {
     font-size: 1.4rem;
-    bottom: 2.2rem;
+    margin-bottom: 0.8rem;
+    padding: 0 0.5rem; 
+    padding-right: 50rem; 
+
   }
 
   @media (max-width: 350px) {
-      align-items: center;
-    right: 17rem;
     font-size: 0.7rem;
-    bottom: 3rem;
+    margin-bottom: 2.6rem; /* Reduce bottom margin */
+    padding: 0 0.5rem; 
+    padding-right: 36.5rem; 
+
   }
 `;
 
