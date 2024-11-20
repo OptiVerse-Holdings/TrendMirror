@@ -13,34 +13,44 @@ const fadeInUp = keyframes`
 
 export const FeaturesSection = styled.section`
   position: relative;
-  padding: 0rem 0rem;
+  padding: 0;
+  margin: 0;
   text-align: center;
   background-color: white;
   bottom: 7.8rem;
   left: 10.2rem;
+  width: 100%;
 
    @media (max-width: 1024px) {
     bottom: 6rem; /* Adjust for medium screens */
     left: 6.5rem;
     padding: 0rem 1.5rem;
+    width: 100%;
+    margin: 0;
   }
 
   @media (max-width: 768px) {
     bottom: 4rem; /* Further adjust for tablets */
     left: 2.3rem;
     padding: 0rem 0rem; 
+    width: 100%;
+    margin: 0;
   }
 
   @media (max-width: 480px) {
     bottom: 2rem; /* Adjust for small screens */
     left: 1.55rem;
     padding: 0rem 0rem; 
+    width: 100%;
+    margin: 0;
   }
 
   @media (max-width: 350px) {
     bottom: 1rem; /* Minimal adjustment for extra-small screens */
     left: 1.6rem;
     padding: 0rem 0rem; 
+    width: 100%;
+    margin: 0;
   }
 `;
 
@@ -75,24 +85,37 @@ export const FeaturesGrid = styled.div`
   gap: 1.5rem;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
  
   
   @media (max-width: 1024px) {
     position: relative;
     gap: 1.2rem; /* Reduce gap for medium screens */
+    width: 100%;
+    margin: 0;
+    padding: 0;
     right: 1.6rem;
     }
 
   @media (max-width: 768px) {
     gap: 0rem; /* Further reduce gap for tablets */
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   @media (max-width: 480px) {
     gap: 0rem; /* Smaller gap for mobile screens */
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   @media (max-width: 350px) {
     gap: 0em; /* Minimal gap for extra-small screens */
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 `;
 
