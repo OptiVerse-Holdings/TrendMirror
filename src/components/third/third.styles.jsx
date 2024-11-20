@@ -38,14 +38,14 @@ export const SectionTitle = styled.h2`
   }
 
   @media (max-width: 768px) {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
      padding: 0 0.5rem; 
     padding-right: 31rem; 
   }
 
   @media (max-width: 480px) {
-    font-size: 1.4rem;
+    font-size: 0.7rem;
     margin-bottom: 0.8rem;
     padding: 0 0.5rem; 
     padding-right: 50rem; 
@@ -53,7 +53,7 @@ export const SectionTitle = styled.h2`
   }
 
   @media (max-width: 350px) {
-    font-size: 0.7rem;
+    font-size: 0.3rem;
     margin-bottom: 2.6rem; /* Reduce bottom margin */
     padding: 0 0.5rem; 
     padding-right: 36.5rem; 
