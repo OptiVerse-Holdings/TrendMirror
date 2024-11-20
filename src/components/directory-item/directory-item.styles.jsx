@@ -18,6 +18,8 @@ export const FeaturesSection = styled.section`
   background-color: white;
   bottom: 7.8rem;
   left: 10.2rem;
+    max-width: 1200px; /* Limits the width on larger screens */
+
 
    @media (max-width: 1024px) {
     bottom: 6rem; /* Adjust for medium screens */
@@ -29,12 +31,16 @@ export const FeaturesSection = styled.section`
     bottom: 4rem; /* Further adjust for tablets */
     left: 2.3rem;
     padding: 0rem 1rem; 
+      max-width: 1200px; /* Limits the width on larger screens */
+
   }
 
   @media (max-width: 480px) {
     bottom: 2rem; /* Adjust for small screens */
     left: 1.55rem;
     padding: 0rem 0.8rem; 
+      max-width: 1200px; /* Limits the width on larger screens */
+
   }
 
   @media (max-width: 350px) {
@@ -42,6 +48,8 @@ export const FeaturesSection = styled.section`
     left: 1.6rem;
     padding: 0rem 0.5rem;
     width: 200%; 
+      max-width: 1200px; /* Limits the width on larger screens */
+
   }
 `;
 

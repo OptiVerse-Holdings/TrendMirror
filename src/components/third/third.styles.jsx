@@ -33,22 +33,29 @@ export const SectionTitle = styled.h2`
   margin-bottom: 1.5rem;
 
     @media (max-width: 1024px) {
+      align-items: center;
+
     right: 6.2rem;
     padding: 0rem 1.5rem;
   }
 
   @media (max-width: 768px) {
+       align-items: center;
+
       font-size: 1.6rem;   
       right: 14.2rem;
   }
 
    @media (max-width: 480px) {
+     align-items: center;
+
     right: 23.2rem;
     font-size: 1.4rem;
     bottom: 2.2rem;
   }
 
   @media (max-width: 350px) {
+      align-items: center;
     right: 17rem;
     font-size: 0.7rem;
     bottom: 3rem;
