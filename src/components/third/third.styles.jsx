@@ -30,11 +30,39 @@ export const SectionTitle = styled.h2`
    text-align: center; 
     padding: 0 1rem;
 
+ @media (max-width: 1044px) {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+     padding: 0 0.5rem; 
+    padding-right: 31rem; 
+  }
+
+   @media (max-width: 1034px) {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+     padding: 0 0.5rem; 
+    padding-right: 31rem; 
+  }
+
   @media (max-width: 1024px) {
     font-size: 1.8rem;
     margin-bottom: 1.2rem;
     padding: 0 1.5rem;
     padding-right: 14rem; 
+  }
+
+   @media (max-width: 788px) {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+     padding: 0 0.5rem; 
+    padding-right: 31rem; 
+  }
+
+ @media (max-width: 778px) {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+     padding: 0 0.5rem; 
+    padding-right: 31rem; 
   }
 
   @media (max-width: 768px) {
@@ -44,6 +72,20 @@ export const SectionTitle = styled.h2`
     padding-right: 31rem; 
   }
 
+     @media (max-width: 500px) {
+    font-size: 0.8rem;
+    margin-bottom: .6rem; /* Reduce bottom margin */
+    padding: 0 0.5rem; 
+    padding-right: 57.5rem; 
+}
+
+   @media (max-width: 490px) {
+    font-size: 0.8rem;
+    margin-bottom: .6rem; /* Reduce bottom margin */
+    padding: 0 0.5rem; 
+    padding-right: 57.5rem; 
+}
+
   @media (max-width: 480px) {
     font-size: 0.7rem;
     margin-bottom: 0.8rem;
@@ -51,20 +93,25 @@ export const SectionTitle = styled.h2`
     padding-right: 50rem; 
 
   }
- @media (max-width: 360px) {
+ @media (max-width: 370px) {
     font-size: 0.8rem;
-    margin-bottom: 2.6rem; /* Reduce bottom margin */
+    margin-bottom: .6rem; /* Reduce bottom margin */
     padding: 0 0.5rem; 
     padding-right: 57.5rem; 
-
+}
+  
+ @media (max-width: 360px) {
+    font-size: 0.8rem;
+    margin-bottom: .6rem; /* Reduce bottom margin */
+    padding: 0 0.5rem; 
+    padding-right: 57.5rem; 
 }
 
   @media (max-width: 350px) {
-    font-size: 0.3rem;
+    font-size: 0.6rem;
     margin-bottom: 2.6rem; /* Reduce bottom margin */
     padding: 0 0.5rem; 
     padding-right: 36.5rem; 
-
   }
 `;
 
