@@ -28,19 +28,19 @@ export const FeaturesSection = styled.section`
   @media (max-width: 768px) {
     bottom: 4rem; /* Further adjust for tablets */
     left: 2.3rem;
-    padding: 0rem 1rem; 
+    padding: 0rem 0rem; 
   }
 
   @media (max-width: 480px) {
     bottom: 2rem; /* Adjust for small screens */
     left: 1.55rem;
-    padding: 0rem 0.8rem; 
+    padding: 0rem 0rem; 
   }
 
   @media (max-width: 350px) {
     bottom: 1rem; /* Minimal adjustment for extra-small screens */
     left: 1.6rem;
-    padding: 0rem 0.5rem; 
+    padding: 0rem 0rem; 
   }
 `;
 
@@ -60,7 +60,7 @@ export const Title = styled.h2`
   }
 
   @media (max-width: 480px) {
-    font-size: 0.9rem; /* Smaller font size for mobile devices */
+    font-size: 1.4rem; /* Smaller font size for mobile devices */
     margin-bottom: 1.5rem; /* Adjust margin for small screens */
   }
 
@@ -75,7 +75,8 @@ export const FeaturesGrid = styled.div`
   gap: 1.5rem;
   justify-content: center;
   flex-wrap: wrap;
-
+ 
+  
   @media (max-width: 1024px) {
     position: relative;
     gap: 1.2rem; /* Reduce gap for medium screens */
@@ -83,15 +84,15 @@ export const FeaturesGrid = styled.div`
     }
 
   @media (max-width: 768px) {
-    gap: 1rem; /* Further reduce gap for tablets */
+    gap: 0rem; /* Further reduce gap for tablets */
   }
 
   @media (max-width: 480px) {
-    gap: 1.5rem; /* Smaller gap for mobile screens */
+    gap: 0rem; /* Smaller gap for mobile screens */
   }
 
   @media (max-width: 350px) {
-    gap: 0.8rem; /* Minimal gap for extra-small screens */
+    gap: 0em; /* Minimal gap for extra-small screens */
   }
 `;
 
