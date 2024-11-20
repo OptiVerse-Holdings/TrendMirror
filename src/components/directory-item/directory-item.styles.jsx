@@ -40,7 +40,8 @@ export const FeaturesSection = styled.section`
   @media (max-width: 350px) {
     bottom: 1rem; /* Minimal adjustment for extra-small screens */
     left: 1.6rem;
-    padding: 0rem 0.5rem; 
+    padding: 0rem 0.5rem;
+    width: 200%; 
   }
 `;
 
