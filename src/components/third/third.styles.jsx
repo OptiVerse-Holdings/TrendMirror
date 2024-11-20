@@ -8,17 +8,44 @@ export const TestimonialSection = styled.section`
   background-color: white;
   left: 1rem;
 
+  @media (max-width: 1044px) {
+    padding: 3rem 0.5rem; /* Adjust padding for medium screens */
+  }
+
+  @media (max-width: 1034px) {
+    padding: 3rem 0.5rem; /* Adjust padding for medium screens */
+  }
+
    @media (max-width: 1024px) {
     padding: 3rem 0.5rem; /* Adjust padding for medium screens */
+  }
+
+   @media (max-width: 788px) {
+    padding: 2rem 0.5rem; /* Smaller padding for smaller screens */
+  }
+
+   @media (max-width: 778px) {
+    padding: 2rem 0.5rem; /* Smaller padding for smaller screens */
   }
 
   @media (max-width: 768px) {
     padding: 2rem 0.5rem; /* Smaller padding for smaller screens */
   }
 
+   @media (max-width: 370px) {
+    padding: 1rem 0.5rem; /* Tight padding for very small screens */
+    padding-bottom: 6rem;
+    }
+
+   @media (max-width: 360px) {
+    padding: 1rem 0.5rem; /* Tight padding for very small screens */
+    padding-bottom: 6rem;
+    } 
+
   @media (max-width: 350px) {
-    padding: 1.5rem 0.5rem; /* Tight padding for very small screens */
-  }
+    padding: 1rem 0.5rem; /* Tight padding for very small screens */
+    padding-bottom: 6rem;
+    }
 `;
 
 export const SectionTitle = styled.h2`
