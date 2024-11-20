@@ -39,13 +39,13 @@ export const TestimonialSection = styled.section`
 
    @media (max-width: 360px) {
     padding: 1rem 0.5rem; /* Tight padding for very small screens */
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
     } 
 
   @media (max-width: 350px) {
     padding: 1rem 0.5rem; /* Tight padding for very small screens */
     padding-bottom: 6rem;
-    }
+    } 
 `;
 
 export const SectionTitle = styled.h2`
