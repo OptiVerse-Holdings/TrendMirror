@@ -3,7 +3,7 @@ import styled, { keyframes } from 'styled-components';
 export const TestimonialSection = styled.section`
   position: relative;  
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 0rem 1rem;
   margin: 0;
   background-color: white;
   left: 1rem;
@@ -52,10 +52,10 @@ export const SectionTitle = styled.h2`
   position: relative;
   font-size: 2rem;
   font-weight: bold;
-  bottom: 2rem;
+  bottom: 5rem;
   margin-bottom: 1.5rem;
-   text-align: center; 
-    padding: 0 1rem;
+  text-align: center; 
+  padding: 0 1rem;
 
  @media (max-width: 1044px) {
     font-size: 1.2rem;
@@ -154,6 +154,7 @@ export const TestimonialContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
+  bottom: 3rem;
 
    @media (max-width: 480px) {
     position: relative;

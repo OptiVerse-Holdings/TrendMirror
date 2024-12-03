@@ -37,7 +37,7 @@ const Third = () => {
 
   return (
     <TestimonialSection>
-      <SectionTitle>Hear from our customers</SectionTitle>
+      <SectionTitle>What our customers are saying</SectionTitle>
       <TestimonialContainer>
         <SliderWrapper>
           {testimonials.concat(testimonials).map((testimonial, index) => (

@@ -5,6 +5,7 @@ export const FAQSection = styled.section`
   text-align: center;
   padding: 4rem 2rem;
   left: 9.7rem;
+  bottom: 7rem;
   
   @media (max-width: 768px) {
     position: relative;

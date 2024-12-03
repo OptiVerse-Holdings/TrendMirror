@@ -1,5 +1,16 @@
 import styled, { keyframes }  from 'styled-components';
 
+const wordFadeIn = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
 const fadeInUp = keyframes`
   0% {
     opacity: 0;
@@ -17,8 +28,9 @@ export const FeaturesSection = styled.section`
   position: relative;
   padding: 0rem 0rem;
   text-align: center;
-  background-color: white;
+  background-color: #f3f2fe;
   bottom: 7.8rem;
+  height: 33rem;
   width: 100%;
   
    @media (max-width: 1024px) {
@@ -55,9 +67,10 @@ export const FeaturesSection = styled.section`
 `;
 
 export const Title = styled.h2`
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 2rem;
+  padding-top: 3rem;
 
   @media (max-width: 1024px) {
     position: relative;
@@ -77,6 +90,48 @@ export const Title = styled.h2`
   @media (max-width: 350px) {
     font-size: 0.7rem; /* Smallest font size for extra-small screens */
     margin-bottom: 1rem; /* Reduce margin for very small devices */
+  }
+`;
+
+
+export const DSubtext = styled.p`
+  font-size: 0.97rem;
+  color: black;
+  margin-bottom: 2rem;
+  bottom: 6px;
+  width: 60rem;
+  padding-left: 20rem;
+
+   span {
+    display: inline-block;
+    opacity: 0;
+    animation: ${wordFadeIn} 0.5s forwards;
+    animation-delay: calc(var(--index) * 0.3s); /* Stagger animation */
+  }
+
+
+  /* Responsive font size and margin adjustments */
+  @media (max-width: 1024px) {
+    font-size: 0.9rem; /* Slightly smaller font for medium screens */
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.85rem; /* Smaller font for tablets */
+    margin-bottom: 1.2rem;
+    bottom: 4px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.50rem; /* Smallest font for mobile screens */
+    margin-bottom: 1rem;
+    top: 3px;
+  }
+
+  @media (max-width: 350px) {
+    position: relative;
+    font-size: 0.37rem; /* Smallest font for mobile screens */
+    margin-bottom: 1rem;
   }
 `;
 
@@ -106,12 +161,15 @@ export const FeaturesGrid = styled.div`
 `;
 
 export const FeatureCard = styled.div`
+  position: relative; 
   background-color: #ffffff;
-  border-radius: 21px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
   padding: 1.5rem;
-  max-width: 300px;
+  max-width: 370px;
+  height: 17rem;
   text-align: center;
+  top: 1rem;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow *
   opacity: 0; /* Start hidden */
   animation: ${fadeInUp} 0.8s ease-out forwards;
   animation-delay: ${({ delay }) => delay || '0s'}; /* Add delay for staggering */
@@ -144,11 +202,11 @@ export const FeatureCard = styled.div`
 
 export const FeatureImage = styled.img`
   position: relative;
-  right: 1.6rem;
-  width: 120%;
-  height: 15rem;
+  right: 0.2rem;
+  width: 16%;
+  height: 3rem;
   border-bottom-radius: 8px;
-  bottom: 1.5rem;
+  top: 1.5rem;
 
    @media (max-width: 1024px) {
     right: 1.4rem; /* Adjust position for medium screens */
@@ -180,8 +238,8 @@ export const FeatureImage = styled.img`
 
 export const FeatureTitle = styled.h3`
   position: relative;
-  bottom: 1.5rem;
-  right: 2rem;
+  top: 1.5rem;
+  right: 0rem;
   font-size: 1.25rem;
   font-weight: bold;
   margin: 1rem 0 0.5rem;
@@ -213,12 +271,12 @@ export const FeatureTitle = styled.h3`
 
 export const FeatureDescription = styled.p`
   position: relative;
-  bottom: 1.5rem;
+  top: 2.8rem;
   right: 0.1rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: #666666;
   line-height: 1.5;
-  text-align: left; /* Ensures text aligns to the left */
+  text-align: center; /* Ensures text aligns to the left */
 
     @media (max-width: 1024px) {
     bottom: 1rem; /* Adjust position for medium screens */
