@@ -1,8 +1,8 @@
 import React from 'react';
-import Appp8 from '../../assets/linkedin.png';
-import Appp9 from '../../assets/Facebook.png';
-import Appp10 from '../../assets/insta.png';
-import Appp11 from '../../assets/Youtube.png';
+// import Appp8 from '../../assets/linkedin.png';
+// import Appp9 from '../../assets/Facebook.png';
+// import Appp10 from '../../assets/insta.png';
+// import Appp11 from '../../assets/Youtube.png';
 import { 
   Container, 
   FooterSection, 
