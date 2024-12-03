@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, TextSection, Title, Subtitle, DownloadButton, AppPreview, AppImage, Icon } from './fifth.styles';
 import  Appp5 from '../../assets/ColorDownload.png';
-import  Appp6 from '../../assets/12phone 1.png';
+// import  Appp6 from '../../assets/12phone 1.png';
 
 const DownloadAppButton = () => (
   <DownloadButton>
