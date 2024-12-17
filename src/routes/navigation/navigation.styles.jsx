@@ -22,6 +22,8 @@ export const HeroContainer = styled.div`
   width: 100%;
   max-width: 1200px; /* Limits the width on larger screens */
   margin: 0 auto;
+  height: 12rem;
+  overflow: auto
 
     /* Responsive padding for smaller screens */
   @media (max-width: 1024px) {
@@ -39,13 +41,38 @@ export const HeroContainer = styled.div`
   }
 `;
 
+// export const Headerbox = styled.div`
+//       background-color: white;
+//       width: 50rem;
+
+//     /* Responsive padding for smaller screens */
+//   @media (max-width: 1024px) {
+//     padding: 1.5rem;
+//     max-width: 1000px;
+//   }
+
+//   @media (max-width: 768px) {
+//     padding: 1rem;
+//     max-width: 700px;
+//   }
+
+//   @media (max-width: 480px) {
+//     padding: 1rem;
+//   }
+// `;
+
 export const Header = styled.header`
+  text-align: center;
+  position: fixed;  
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  max-width: 1200px;
+  width: 80rem;
+  max-width: 1900px;
+  bottom: 32.6rem;
   padding: 1rem 0;
-   margin: 0 auto; /* Centers the header on larger screens */
+  z-index: 1000; /* Ensures it stays above all other elements */
+  margin: 0 auto; /* Centers the header on larger screens */
+  background-color: white; /* White background for the navigation */
 
   /* Responsive padding adjustments */
   @media (max-width: 1024px) {
@@ -67,9 +94,10 @@ export const Header = styled.header`
 
 export const Brand = styled.h1`
   position: relative;
-  bottom: 24px;
-  font-size: 1.2rem;
+  top: 4px;
+  font-size: 1.75rem;
   font-weight: bold;
+  left: 5.3rem;
 
   @media (max-width: 1024px) {
     bottom: 18px; /* Adjust position for medium screens */
@@ -94,11 +122,13 @@ export const Brand = styled.h1`
 
 export const MenuButton = styled.button`
   position: relative;
-  bottom: 28px;
+  top: 4px;
   font-size: 1.5rem;
   background: none;
   border: none;
   cursor: pointer;
+  right: 6rem;
+
 
    @media (max-width: 1024px) {
     bottom: 20px; /* Adjust position for medium screens */
@@ -128,7 +158,7 @@ export const Content = styled.div`
   justify-content: space-between;
   max-width: 1200px;
   width: 100%;
-  bottom: 105px;
+  bottom: 3px;
 
    @media (max-width: 1024px) {
     bottom: 80px; /* Adjust position for medium screens */
@@ -161,7 +191,7 @@ export const TextContent = styled.div`
 
 export const Heading = styled.h2`
   font-size: 2.8rem;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.2;
   margin-bottom: 1rem;
 
@@ -290,8 +320,11 @@ export const ImageContent = styled.div`
 `;
 
 export const ModelImage = styled.img`
+  position: relative;
   max-width: 150%;
-  height: 34rem;
+  height: 25rem;
+  bottom: 12px;
+  left: 7rem;
 
     @media (max-width: 1024px) {
     height: 30rem; /* Adjust height for medium screens */

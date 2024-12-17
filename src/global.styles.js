@@ -23,7 +23,7 @@ a {
 
 #root {
   min-height: 0vh; /* Set this to control the height across all pages */
-  max-height: 880vh; /* Limit the height */
+  max-height: 1080vh; /* Limit the height */
   min-width: 0vw; /* Set this to control the height across all pages */
   max-width: 280vw; /* Limit the height */
   overflow: hidden;
