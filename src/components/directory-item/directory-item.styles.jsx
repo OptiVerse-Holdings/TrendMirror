@@ -30,7 +30,7 @@ export const FeaturesSection = styled.section`
   text-align: center;
   background-color: #f3f2fe;
   bottom: 7.8rem;
-  height: 33rem;
+  height: 32rem;
   width: 100%;
   
    @media (max-width: 1024px) {
@@ -67,6 +67,8 @@ export const FeaturesSection = styled.section`
 `;
 
 export const Title = styled.h2`
+  position: relative;
+  top: 1rem;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 2rem;
@@ -95,12 +97,13 @@ export const Title = styled.h2`
 
 
 export const DSubtext = styled.p`
-  font-size: 0.97rem;
+  position: relative;
+  font-size: 0.9rem;
   color: black;
   margin-bottom: 2rem;
   bottom: 6px;
-  width: 60rem;
-  padding-left: 20rem;
+  width: 43rem;
+  left: 18rem;
 
    span {
     display: inline-block;
@@ -141,6 +144,7 @@ export const FeaturesGrid = styled.div`
   justify-content: center;
   flex-wrap: wrap;
 
+
   @media (max-width: 1024px) {
     position: relative;
     gap: 1.2rem; /* Reduce gap for medium screens */
@@ -165,11 +169,12 @@ export const FeatureCard = styled.div`
   background-color: #ffffff;
   border-radius: 18px;
   padding: 1.5rem;
-  max-width: 370px;
-  height: 17rem;
+  max-width: 970px;
+  width: 21rem;
+  height: 15rem;
   text-align: center;
   top: 1rem;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow *
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25); /* Shadow *
   opacity: 0; /* Start hidden */
   animation: ${fadeInUp} 0.8s ease-out forwards;
   animation-delay: ${({ delay }) => delay || '0s'}; /* Add delay for staggering */
@@ -203,10 +208,10 @@ export const FeatureCard = styled.div`
 export const FeatureImage = styled.img`
   position: relative;
   right: 0.2rem;
-  width: 16%;
-  height: 3rem;
+  width: 13%;
+  height: 2.4rem;
   border-bottom-radius: 8px;
-  top: 1.5rem;
+  top: 0.7rem;
 
    @media (max-width: 1024px) {
     right: 1.4rem; /* Adjust position for medium screens */
@@ -238,10 +243,11 @@ export const FeatureImage = styled.img`
 
 export const FeatureTitle = styled.h3`
   position: relative;
-  top: 1.5rem;
-  right: 0rem;
-  font-size: 1.25rem;
+  top: 0.8rem;
+  left: 1rem;
+  font-size: 1.15rem;
   font-weight: bold;
+  width: 16rem;
   margin: 1rem 0 0.5rem;
 
     @media (max-width: 1024px) {
@@ -271,11 +277,12 @@ export const FeatureTitle = styled.h3`
 
 export const FeatureDescription = styled.p`
   position: relative;
-  top: 2.8rem;
+  top: 1.7rem;
   right: 0.1rem;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #666666;
   line-height: 1.5;
+  width: 19rem;
   text-align: center; /* Ensures text aligns to the left */
 
     @media (max-width: 1024px) {

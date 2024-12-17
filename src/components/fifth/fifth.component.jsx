@@ -13,9 +13,9 @@ const Fifth = () => {
   return (
     <Container>
       <TextSection>
-        <Title>Step Into the Future of Fashion</Title>
+        <Title>Ready to See Yourself in Style?</Title>
         <Subtitle>
-        TrendMirror lets you see how the latest fashion looks on you before you buy. Upload your photo, paste a product link, and experience a whole new way of shopping.
+        Discover how your favorite outfits look on you before you buy. Upload your photo, select an item, and let our Virtual Try-On bring your style to life.
         </Subtitle>
         <DownloadAppButton />
       </TextSection>

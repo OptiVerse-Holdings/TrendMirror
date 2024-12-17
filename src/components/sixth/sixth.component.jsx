@@ -1,18 +1,53 @@
 import React from 'react';
-// import Appp8 from '../../assets/linkedin.png';
-// import Appp9 from '../../assets/Facebook.png';
-// import Appp10 from '../../assets/insta.png';
-// import Appp11 from '../../assets/Youtube.png';
+
+import  Appp7 from '../../assets/InstaF.png';
+import  Appp8 from '../../assets/XF.png';
+import  Appp9 from '../../assets/FacebookF.png';
+import  Appp10 from '../../assets/LinkedInF.png';
+
+import { Icon } from './sixth.styles';
+
 import { 
   Container, 
   FooterSection, 
   FooterTitle, 
-  FooterText, 
+  FooterText,
+  OoterText, 
   SocialIcons, 
   SocialIcon, 
   FooterGrid, 
-  FooterBrand 
+  FooterBrand,
+  Footer1,
+  OwnloadButton,
+  WnloadButton,
+  NloadButton,
+  LoadButton,
+  Footer2
 } from './sixth.styles';
+
+const OwnloadAppButton = () => (
+  <OwnloadButton>
+    <Icon src={Appp7} />
+  </OwnloadButton>
+);
+
+const WnloadAppButton = () => (
+  <WnloadButton>
+    <Icon src={Appp8} />
+  </WnloadButton>
+);
+
+const NloadAppButton = () => (
+  <NloadButton>
+    <Icon src={Appp9} />
+  </NloadButton>
+);
+
+const LoadAppButton = () => (
+  <LoadButton>
+    <Icon src={Appp10} />
+  </LoadButton>
+);
 
 const Sixth = () => {
   return (
@@ -21,11 +56,12 @@ const Sixth = () => {
         {/* Brand Section */}
         <FooterSection>
           <FooterBrand>TrendMirror</FooterBrand>
-          <FooterText>
+          <OoterText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
-          </FooterText>
-          <FooterText>© 2024 LandingBox</FooterText>
+          </OoterText>
+        <Footer2>© 2024 LandingBox</Footer2>
+
         </FooterSection>
 
         {/* Contact Section */}
@@ -39,19 +75,21 @@ const Sixth = () => {
 
         {/* Navigation Section */}
         <FooterSection>
-          <FooterTitle>Navigation</FooterTitle>
-          <FooterText>Home</FooterText>
-          <FooterText>Navigation Item</FooterText>
-          <FooterText>Other Nav Item</FooterText>
+          <FooterTitle>Legal</FooterTitle>
+          <FooterText>Terms</FooterText>
+          <FooterText>Privacy</FooterText>
         </FooterSection>
 
         {/* Social Media Section */}
         <FooterSection>
-          <FooterTitle>Social Media</FooterTitle>
-          <FooterText>X</FooterText>
-          <FooterText>Facebook</FooterText>
-          <FooterText>Instagram</FooterText>
+          <FooterTitle>Social media</FooterTitle>
+          <OwnloadAppButton />
+          <WnloadAppButton />
+          <NloadAppButton />
+          <LoadAppButton />
         </FooterSection>
+
+          <Footer1>TrendMirror</Footer1>
       </FooterGrid>
     </Container>
   );

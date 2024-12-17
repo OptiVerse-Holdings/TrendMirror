@@ -1,7 +1,7 @@
 import React from 'react';
-import Sand from '../../assets/fluent-color_camera-16.png';
-import Next2 from '../../assets/cryptocurrency-color_link.png';
-import Next3 from '../../assets/Purseicon.png';
+import Sand from '../../assets/Direc1.png';
+import Next2 from '../../assets/Direc2.png';
+import Next3 from '../../assets/Direc3.png';
 import { FeaturesSection, Title, DSubtext, FeaturesGrid, FeatureCard, FeatureImage, FeatureTitle, FeatureDescription } from './directory-item.styles';
 
 const DirectoryItem = () => {

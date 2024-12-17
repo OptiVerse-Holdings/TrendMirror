@@ -69,7 +69,7 @@ export const Title = styled.h2`
 
 export const ServiceCard = styled.div`
   position: relative;
-  bottom: 24px;
+  bottom: 27px;
   display: flex;
   align-items: center;
   gap: 0rem;
@@ -163,7 +163,7 @@ export const RviceCard = styled.div`
   padding: 2rem;
   max-width: 900px;
   margin: 0 auto;
-  left: 2.4rem;
+  left: 1.5rem;
   margin-bottom: 2rem; /* Add spacing between cards if multiple */
   
    @media (max-width: 1024px) {
@@ -358,6 +358,7 @@ export const ViceImage = styled.img`
   border-radius: 12px;
   object-fit: cover;
   bottom: 130px;
+  left: 0.3rem;
   
     @media (max-width: 1024px) {
     width: 350px; /* Adjust width for medium screens */
@@ -395,9 +396,10 @@ export const ServiceContent = styled.div`
   h3 {
     position: relative;
     left: 5.2rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    width: 20rem;
 
     @media (max-width: 1024px) {
       left: 4rem; /* Adjust for medium screens */
@@ -431,15 +433,12 @@ export const ServiceContent = styled.div`
   p {
     position: relative;
     left: 5.2rem;
-    font-size: 1rem;
-    width: 26.5vw;
+    font-size: 0.9rem;
+    width: 30.7vw;
     color: #666666;
     line-height: 1.3; /* Set line height to control spacing between lines */
-    overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Limits text to 3 lines */
     -webkit-box-orient: vertical;
-    text-overflow: ellipsis; /* Adds ellipsis (...) when text is truncated */
 
     @media (max-width: 1024px) {
       left: 4rem; /* Adjust for medium screens */
@@ -479,8 +478,9 @@ export const ErviceContent = styled.div`
 h3 {
     position: relative;
     left: 2.4rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
+    width: 17rem;
     margin-bottom: 1rem;
     bottom: 4.2rem;
 
@@ -517,15 +517,12 @@ h3 {
   p {
     position: relative;
     left: 2.4rem;
-    font-size: 1rem;
-    width: 25.5vw;
+    font-size: 0.9rem;
+    width: 30.6vw;
     color: #666666;
     line-height: 1.3; /* Control line spacing */
-    overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Limits text to 3 lines */
     -webkit-box-orient: vertical;
-    text-overflow: ellipsis; /* Adds ellipsis when text is truncated */
     bottom: 4.2rem;
 
     @media (max-width: 1024px) {
@@ -565,9 +562,10 @@ export const RviceContent = styled.div`
  h3 {
     position: relative;
     left: 5.2rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     bottom: 7rem;
+    width: 17rem;
 
     @media (max-width: 1024px) {
       left: 4rem; /* Adjust left position for medium screens */
@@ -600,15 +598,12 @@ export const RviceContent = styled.div`
   p {
     position: relative;
     left: 5.2rem;
-    font-size: 1rem;
-    width: 27.5vw;
+    font-size: 0.9rem;
+    width: 30vw;
     color: #666666;
     line-height: 1.3; /* Control spacing */
-    overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Limit text to 3 lines */
     -webkit-box-orient: vertical;
-    text-overflow: ellipsis; /* Adds ellipsis (...) when text is truncated */
     bottom: 6rem;
 
     @media (max-width: 1024px) {
@@ -648,11 +643,12 @@ export const ViceContent = styled.div`
 
   h3 {
     position: relative;
-    right: 5.6rem;
-    font-size: 1.5rem;
+    right: 6.1rem;
+    font-size: 1.7rem;
     font-weight: bold;
     margin-bottom: 1rem;
     bottom: 7.9rem;
+    width: 17rem;
 
     @media (max-width: 1024px) {
       right: 4.5rem; /* Adjust position for medium screens */
@@ -682,16 +678,13 @@ export const ViceContent = styled.div`
 
   p {
     position: relative;
-    right: 5.6rem;
-    font-size: 1rem;
-    width: 25.5vw;
+    right: 6.1rem;
+    font-size: 0.9rem;
+    width: 29.5vw;
     color: #666666;
     line-height: 1.3; /* Control line spacing */
-    overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Limit text to 3 lines */
     -webkit-box-orient: vertical;
-    text-overflow: ellipsis; /* Adds ellipsis (...) when text is truncated */
     bottom: 7.9rem;
 
     @media (max-width: 1024px) {

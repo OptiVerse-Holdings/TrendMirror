@@ -6,12 +6,13 @@ export const Container = styled.div`
   align-items: center;
   background-color: #f3f2fe; /* Soft beige background */
   padding: 4rem;
-  border-radius: 16px;
+  border-radius: 11px;
   width: 100%;
-  height: 32rem;
+  height: 28rem;
   max-width: 1080px;
   margin: 3rem 6rem;
-  
+  position: relative;
+  top: 24rem;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -44,10 +45,11 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #4A4A4A;
   margin-bottom: 2rem;
   width: 33rem;
+  line-height: 1.5rem;
 
   @media (max-width: 768px) {
     font-size: 0.9rem;
@@ -58,7 +60,7 @@ export const DownloadButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.8rem 1.5rem;
+  padding: 0.2rem 1.5rem;
   padding-right: 30.8rem;
   padding-left: 0rem;
   font-size: 1rem;

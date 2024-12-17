@@ -3,10 +3,11 @@ import styled, { keyframes } from 'styled-components';
 export const TestimonialSection = styled.section`
   position: relative;  
   text-align: center;
-  padding: 0rem 1rem;
+  padding: rem 1rem;
   margin: 0;
   background-color: white;
   left: 1rem;
+  top: 24rem;
 
   @media (max-width: 1044px) {
     padding: 3rem 0.5rem; /* Adjust padding for medium screens */
@@ -149,12 +150,12 @@ export const infiniteScroll = keyframes`
 
 export const TestimonialContainer = styled.div`
   display: flex;
-  overflow: hidden;
-  width: 250%;
+  width: 280%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  bottom: 3rem;
+  bottom: 4.4rem;
+  left: 0.94rem;
 
    @media (max-width: 480px) {
     position: relative;
@@ -223,9 +224,9 @@ export const Avatar = styled.img`
 
 export const QuoteIcon = styled.img`
   position: absolute;
-  bottom: 3px;
-  right: 80px;
-  width: 2.8rem;
+  bottom: 1px;
+  right: 160px;
+  width: 2.4rem;
 
    @media (max-width: 480px) {
     position: absolute;
@@ -237,16 +238,16 @@ export const QuoteIcon = styled.img`
    @media (max-width: 350px) {
     position: relative;
     top: 0.3rem;
-    right: px;
+    right: 1px;
     width: 1.7rem;
   }
 `;
 
 export const DotIcon = styled.img`
   position: absolute;
-  top: 215px;
-  right: 132px;
-  width: 1rem;
+  top: 230px;
+  right: 207px;
+  width: 0.7rem;
 
    @media (max-width: 350px) {
     width: 0.6rem;
@@ -257,11 +258,12 @@ export const DotIcon = styled.img`
 
 export const TestimonialText = styled.p`
   position: relative;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #666666;
   margin: 1rem 0;
   line-height: 1.5;
   font-weight: 800;
+  width: 26.5rem;
   
 
   @media (max-width: 350px) {
@@ -272,10 +274,10 @@ export const TestimonialText = styled.p`
 
 export const AuthorName = styled.h3`
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin: 0.5rem 0;
-  top: 1.9rem;
+  top: 1.6rem;
 
   @media (max-width: 350px) {
     font-size: 0.7rem;
@@ -287,7 +289,7 @@ export const AuthorPosition = styled.p`
   position: relative;
   font-size: 0.9rem;
   color: #999999;
-  top: 1.7rem;
+  top: 1.4rem;
 
    @media (max-width: 350px) {
     font-size: 0.6rem;

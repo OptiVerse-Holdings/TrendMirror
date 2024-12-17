@@ -5,7 +5,7 @@ export const FAQSection = styled.section`
   text-align: center;
   padding: 4rem 2rem;
   left: 9.7rem;
-  bottom: 7rem;
+  top: 17rem;
   
   @media (max-width: 768px) {
     position: relative;
@@ -37,7 +37,7 @@ export const FAQSection = styled.section`
 `;
 
 export const SectionTitle = styled.h1`
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
    
@@ -85,7 +85,6 @@ export const SectionSubtitle = styled.p`
   font-size: 1.3rem;
   color: black;
   margin-bottom: 2rem;
-  font-weight: bold;
 
   @media (max-width: 1024px) {
     position: relative;

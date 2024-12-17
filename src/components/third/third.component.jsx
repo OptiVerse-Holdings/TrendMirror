@@ -11,27 +11,27 @@ const Third = () => {
   const testimonials = [
     {
       avatar: firstc,
-      text: 'Amat minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.',
-      name: 'Name Lastname 1',
-      position: 'Position @ Company 1',
+      text: 'I’ve always been unsure about online shopping because I never knew how clothes would look on me. The Virtual Try-On changed everything! I could see exactly how the dress fit me before buying it. It’s a game-changer!',
+      name: 'James L.',
+      position: 'Online Shopper',
     },
     {
       avatar: secondc,
-      text: 'Amat minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.',
-      name: 'Name Lastname 2',
-      position: 'Position @ Company 2',
+      text: 'This tool has completely transformed my shopping experience. It feels like having a personal fitting room at home. I especially love how realistic it looks—it’s like trying on the clothes for real!',
+      name: 'Emily W.',
+      position: 'Fashion Enthusiast',
     },
     {
       avatar: thirdc,
-      text: 'Amat minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.',
-      name: 'Name Lastname 3',
-      position: 'Position @ Company 3',
+      text: 'I’m not tech-savvy, but the Virtual Try-On was so easy to use. I uploaded my photo, added the clothing link, and instantly saw how I looked. It’s perfect for anyone who wants to shop smarter!',
+      name: 'Benjamin A.',
+      position: 'Satisfied Customer',
     },
     {
       avatar: fourthc,
-      text: 'Amat minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.',
-      name: 'Name Lastname 4',
-      position: 'Position @ Company 4',
+      text: 'I was surprised at how straightforward the Virtual Try-On was. With just a quick photo upload and a product link, I could see exactly how the outfit would look on me. It’s a fantastic tool for making confident shopping decisions!',
+      name: 'Linda G.',
+      position: 'Personal Shopper',
     },
   ];
 

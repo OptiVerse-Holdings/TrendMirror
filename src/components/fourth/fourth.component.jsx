@@ -10,31 +10,31 @@ const Fourth = () => {
 
   const faqData = [
     {
-      question: 'Accordion - FAQs',
+      question: 'What is a Virtual Try-On?',
       answer:
-        'This is an answer to a frequently asked question. A couple more words to specify the subject further, provide more detail and make sure the user understands everything.',
+        'The Virtual Try-On feature allows you to see how clothing or accessories look on you without physically trying them. Simply upload your photo, and our tool will do the rest.',
     },
     {
-      question: 'Accordion - FAQs',
+      question: 'How does the Virtual Try-On work?',
       answer:
-        'This is an answer to a frequently asked question. A couple more words to specify the subject further, provide more detail and make sure the user understands everything.',
+        'Upload a clear photo of yourself, paste the link to the item you want to try, and let our app simulate how it looks on you.',
     },
     {
-      question: 'Accordion - FAQs',
+      question: 'What types of items can I try on?',
       answer:
-        'This is an answer to a frequently asked question. A couple more words to specify the subject further, provide more detail and make sure the user understands everything.',
+        'You can try on a wide range of items, including tops, trousers, dresses, bags, shoes, and accessories.',
     },
     {
-      question: 'Accordion - FAQs',
+      question: 'Is the Virtual Try-On feature accurate?',
       answer:
-        'This is an answer to a frequently asked question. A couple more words to specify the subject further, provide more detail and make sure the user understands everything.',
+        'Our tool uses advanced technology to provide a realistic visualization, but slight variations may occur due to lighting, fit, and other factors..',
     },
   ];
 
   return (
     <FAQSection>
       <SectionTitle>Frequently Asked Questions</SectionTitle>
-      <SectionSubtitle>Here are the Answers to Our Most Common FAQs</SectionSubtitle>
+      <SectionSubtitle>Got Questions? We’ve Got Answers!</SectionSubtitle>
       <FAQContainer>
         {faqData.map((faq, index) => (
           <FAQItem key={index}>
