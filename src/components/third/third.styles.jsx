@@ -10,8 +10,10 @@ export const TestimonialSection = styled.section`
   top: 24rem;
 
   @media (max-width: 1044px) {
+    position: relative;  
+    top: 84rem;
     padding: 3rem 0.5rem; /* Adjust padding for medium screens */
-  }
+  } 
 
   @media (max-width: 1034px) {
     padding: 3rem 0.5rem; /* Adjust padding for medium screens */

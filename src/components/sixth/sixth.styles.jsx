@@ -8,9 +8,8 @@ export const Container = styled.div`
   align-items: center;
   background-color: #473678;
   width: 90rem;
-  top: 29rem;
+  top: 28rem;
   height: 66rem;
-
 ;
 `;
   // border-top: 1px solid #d3d3d3; /* Light grey line on top */
@@ -87,13 +86,52 @@ export const FooterGrid = styled.div`
   position: relative;
   left: 4.4rem;
   bottom: 6rem;
+
+  @media (max-width: 1024px) {
+  position: relative; /* Switch to absolute positioning */
+  gap: 1px;
+}
 `;
 
 export const FooterSection = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-`;
+
+  @media (max-width: 1024px) {
+  position: relative; /* Switch to absolute positioning */
+  right: 1rem
+  `;
+
+export const FoterSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media (max-width: 1024px) {
+  position: relative; /* Switch to absolute positioning */
+  right: 3.3rem
+  `;
+
+  export const PoterSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media (max-width: 1024px) {
+  position: relative; /* Switch to absolute positioning */
+  right: 2.5rem
+  `;
+
+  export const MoterSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media (max-width: 1024px) {
+  position: relative; /* Switch to absolute positioning */
+  right: 6rem
+  `;
 
 export const FooterTitle = styled.h3`
   position: relative;
@@ -112,6 +150,12 @@ export const Footer1 = styled.h3`
   bottom: 1rem;
   color: #9186ae;
   left: 24rem;
+
+  @media (max-width: 1024px) {
+   position: relative;
+   left: 15.7rem;
+   bottom: 3rem;
+  }
 `;
 
 export const Footer2= styled.p`

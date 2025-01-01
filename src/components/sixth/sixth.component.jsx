@@ -10,7 +10,10 @@ import { Icon } from './sixth.styles';
 import { 
   Container, 
   FooterSection, 
+  FoterSection,
+  PoterSection,
   FooterTitle, 
+  MoterSection,
   FooterText,
   OoterText, 
   SocialIcons, 
@@ -65,29 +68,29 @@ const Sixth = () => {
         </FooterSection>
 
         {/* Contact Section */}
-        <FooterSection>
+        <FoterSection>
           <FooterTitle>Contact</FooterTitle>
           <FooterText>9565 S. Railroad Dr.</FooterText>
           <FooterText>Spring Valley, NY 10977</FooterText>
           <FooterText>United States</FooterText>
           <FooterText>0800 01234 5678</FooterText>
-        </FooterSection>
+        </FoterSection>
 
         {/* Navigation Section */}
-        <FooterSection>
+        <PoterSection>
           <FooterTitle>Legal</FooterTitle>
           <FooterText>Terms</FooterText>
           <FooterText>Privacy</FooterText>
-        </FooterSection>
+        </PoterSection>
 
         {/* Social Media Section */}
-        <FooterSection>
+        <MoterSection>
           <FooterTitle>Social media</FooterTitle>
           <OwnloadAppButton />
           <WnloadAppButton />
           <NloadAppButton />
           <LoadAppButton />
-        </FooterSection>
+        </MoterSection>
 
           <Footer1>TrendMirror</Footer1>
       </FooterGrid>

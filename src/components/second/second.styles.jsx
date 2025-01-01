@@ -5,13 +5,16 @@ export const ServicesSection = styled.section`
   background-color: white; /* Light beige background color */
   text-align: center;
   min-height: 00vh;
-  max-height: 200vh;
+  max-height: 212vh;
   width: 290rem;
   position: relative;
-  bottom: 8rem;
+  bottom: 7rem;
 
    @media (max-width: 1024px) {
-    padding: 3rem 1.5rem; /* Adjust padding for medium screens */
+    position: relative;
+    bottom: 24rem;
+    right: 9.9rem;
+    padding: 1 1.5rem; /* Adjust padding for medium screens */
     width: 200rem; /* Adjust width */
     max-height: 157vh; /* Reduce height */
   }
@@ -42,9 +45,10 @@ export const Title = styled.h2`
   margin-bottom: 3rem;
   top: 1.2rem;
 
-   @media (max-width: 1024px) {
+  @media (max-width: 1024px) {
+    position: relative;
     font-size: 1.8rem; /* Slightly reduce font size for medium screens */
-    bottom: 2rem; /* Adjust positioning */
+    top: 1rem; /* Adjust positioning */
     margin-bottom: 2.5rem;
   }
 
@@ -69,7 +73,7 @@ export const Title = styled.h2`
 
 export const ServiceCard = styled.div`
   position: relative;
-  bottom: 27px;
+  top: 32px;
   display: flex;
   align-items: center;
   gap: 0rem;
@@ -77,11 +81,12 @@ export const ServiceCard = styled.div`
   padding: 2rem;
   max-width: 900px;
   margin: 0 auto;
-  left: 1.5rem;
+  right: 1rem;
   margin-bottom: 2rem; /* Add spacing between cards if multiple */
 
    @media (max-width: 1024px) {
-    bottom: 70px; /* Adjust for medium screens */
+    position: relative;
+    top: 1px; /* Adjust for medium screens */
     max-width: 750px;
     left: 1rem;
     padding: 1.8rem;
@@ -111,7 +116,7 @@ export const ServiceCard = styled.div`
 
 export const ErviceCard = styled.div`
   position: relative;
-  bottom: 4px;
+  top: 62px;
   display: flex;
   align-items: center;
   gap: 7.9rem;
@@ -119,14 +124,16 @@ export const ErviceCard = styled.div`
   padding: 2rem;
   max-width: 900px;
   margin: 0 auto;
-  right: 0rem;
+  right: 3rem;
   margin-bottom: 2rem; /* Add spacing between cards if multiple */
 
  @media (max-width: 1024px) {
-    bottom: 40px; /* Adjust for medium screens */
+   position: relative;
+    top: 820px; /* Adjust for medium screens */
     gap: 5rem; /* Reduce gap for better layout */
     padding: 1.8rem;
     max-width: 750px;
+    right: 0.4rem;
   }
 
   @media (max-width: 768px) {
@@ -139,7 +146,7 @@ export const ErviceCard = styled.div`
   }
 
   @media (max-width: 480px) {
-    bottom: 20px; /* Adjust for mobile screens */
+    bottom: 40px; /* Adjust for mobile screens */
     gap: 1.5rem; /* Smaller gap for mobile */
     padding: 1.2rem;
     max-width: 100%; /* Full width for mobile */
@@ -155,7 +162,7 @@ export const ErviceCard = styled.div`
 
 export const RviceCard = styled.div`
   position: relative;
-  bottom: 4px;
+  top: 62px;
   display: flex;
   align-items: center;
   gap: 0rem;
@@ -163,18 +170,20 @@ export const RviceCard = styled.div`
   padding: 2rem;
   max-width: 900px;
   margin: 0 auto;
-  left: 1.5rem;
+  right: 1rem;
   margin-bottom: 2rem; /* Add spacing between cards if multiple */
   
    @media (max-width: 1024px) {
-    bottom: 40px; /* Adjust position for medium screens */
+    position: relative;
+    align-items: center;
+    top: 530px; /* Adjust position for medium screens */
     max-width: 750px; /* Adjust max-width */
     left: 1.5rem; /* Adjust left position */
     padding: 1.8rem;
   }
 
   @media (max-width: 768px) {
-    bottom: 30px; /* Further adjust position for tablets */
+    bottom: 3px; /* Further adjust position for tablets */
     max-width: 600px; /* Narrower width for tablets */
     left: 1rem; /* Adjust left for smaller screens */
     padding: 1.5rem;
@@ -198,7 +207,7 @@ export const RviceCard = styled.div`
 
 export const ViceCard = styled.div`
   position: relative;
-  bottom: 11px;
+  top: 62px;
   display: flex;
   align-items: center;
   gap: 0rem;
@@ -206,14 +215,14 @@ export const ViceCard = styled.div`
   padding: 2rem;
   max-width: 900px;
   margin: 0 auto;
-  left: 8.5rem;
+  left: 10rem;
   margin-bottom: 2rem; /* Add spacing between cards if multiple */
 
     @media (max-width: 1024px) {
-    bottom: 50px; /* Adjust for medium screens */
-    max-width: 750px; /* Adjust width */
-    left: 5rem; /* Reduce left offset */
-    padding: 1.8rem; /* Adjust padding */
+    position: relative;
+    top: 530px; /* Adjust position for medium screens */
+    max-width: 750px; /* Adjust max-width */
+    margin-right: 33rem; /* Adjust left position */
   }
 
   @media (max-width: 768px) {
@@ -240,17 +249,19 @@ export const ViceCard = styled.div`
   `;
 
 export const ServiceImage = styled.img`
-  position: relative
+  position: relative;  
   width: 390px;
   height: 53vh;
   border-radius: 12px;
   object-fit: cover;
-  bottom: 490px;
+  bottom: 7px;
   
   @media (max-width: 1024px) {
-    width: 350px; /* Adjust width for medium screens */
+    position: relative;  
+    right: 6.8rem;
+    width: 880px; /* Adjust width for medium screens */
     height: 100%; /* Adjust height */
-    bottom: 400px; /* Adjust position */
+    bottom: 1px; /* Adjust position */
   }
 
   @media (max-width: 768px) {
@@ -286,9 +297,12 @@ export const ErviceImage = styled.img`
   bottom: 70px;
 
    @media (max-width: 1024px) {
-    width: 350px; /* Adjust width for medium screens */
-    height: 30vh; /* Adjust height */
-    bottom: 60px; /* Adjust position */
+    position: relative;  
+    right: 68rem;
+    width: 90vw; /* Adjust width for medium screens */
+    max-width: 1000vw; /* Adjust width for medium screens */
+    height: 100vh; /* Adjust height */
+    bottom: 690px; /* Adjust position */
   }
 
   @media (max-width: 768px) {
@@ -323,9 +337,12 @@ export const RviceImage = styled.img`
   bottom: 105px;
 
     @media (max-width: 1024px) {
-    width: 350px; /* Adjust width for medium screens */
-    height: 30vh; /* Adjust height */
-    bottom: 90px; /* Adjust position */
+    position: relative;
+    right: 7.5rem;
+    width: 100vw; /* Adjust width for medium screens */
+    max-width: 1000vw; /* Adjust width for medium screens */
+    height: 100vh; /* Adjust height */
+    bottom: 279px; /* Adjust position */
     }
 
   @media (max-width: 768px) {
@@ -354,16 +371,18 @@ export const RviceImage = styled.img`
 export const ViceImage = styled.img`
   position: relative;
   width: 390px;
-  height: 100%;
+  height: 53vh;
   border-radius: 12px;
   object-fit: cover;
   bottom: 130px;
-  left: 0.3rem;
+  left: 18.4rem;
   
-    @media (max-width: 1024px) {
-    width: 350px; /* Adjust width for medium screens */
-    height: 30vh; /* Adjust height */
-    bottom: 110px; /* Adjust position */
+  @media (max-width: 1024px) {
+    position: relative;
+    margin-right: 40rem;
+    width: 87vw; /* Adjust width for medium screens */
+    height: 100vh; /* Adjust height */
+    bottom: 180px; /* Adjust position */
   }
 
   @media (max-width: 768px) {
@@ -392,6 +411,13 @@ export const ViceImage = styled.img`
 
 export const ServiceContent = styled.div`
   text-align: left;
+  
+  @media (max-width: 1024px) {
+  text-align: left;
+  position: relative;
+  right: 64.3rem;
+  bottom: 8.8rem;
+  }
 
   h3 {
     position: relative;
@@ -402,8 +428,11 @@ export const ServiceContent = styled.div`
     width: 20rem;
 
     @media (max-width: 1024px) {
-      left: 4rem; /* Adjust for medium screens */
-      font-size: 1.4rem;
+      position: relative;
+      left: 2.5rem; /* Adjust for medium screens */
+      font-size: 1.8rem;
+      top: 470px;
+      width: 50rem;
     }
 
     @media (max-width: 768px) {
@@ -441,8 +470,15 @@ export const ServiceContent = styled.div`
     -webkit-box-orient: vertical;
 
     @media (max-width: 1024px) {
-      left: 4rem; /* Adjust for medium screens */
-      width: 30vw; /* Slightly increase width */
+  position: absolute; /* Switch to absolute positioning */
+  left: 2.5rem; /* Move to the left edge of its parent */
+  text-align: left;
+  padding-right: 6rem;
+  margin: 0; /* Reset all margins */
+  width: 95vw;
+  top: 32rem;
+  font-size: 1.19rem;
+
     }
 
     @media (max-width: 768px) {
@@ -475,6 +511,15 @@ export const ServiceContent = styled.div`
 export const ErviceContent = styled.div`
   text-align: left;
 
+
+   @media (max-width: 1024px) {
+    position: relative; 
+    right: 7.5rem;
+    width: 90vw; /* Adjust width for medium screens */
+    max-width: 1000vw; /* Adjust width for medium screens */
+    bottom: 255px; /* Adjust position */
+  }
+
 h3 {
     position: relative;
     left: 2.4rem;
@@ -485,8 +530,9 @@ h3 {
     bottom: 4.2rem;
 
     @media (max-width: 1024px) {
+      width: 30rem;
       left: 2rem; /* Adjust for medium screens */
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       bottom: 3.5rem; /* Adjust positioning */
     }
 
@@ -526,9 +572,10 @@ h3 {
     bottom: 4.2rem;
 
     @media (max-width: 1024px) {
+      font-size: 1.19rem;
       left: 2rem; /* Adjust for medium screens */
-      width: 30vw; /* Adjust width for medium screens */
-      bottom: 3.5rem;
+      width: 90vw; /* Adjust width for medium screens */
+      bottom: 4rem;
     }
 
     @media (max-width: 768px) {
@@ -550,14 +597,21 @@ h3 {
       left: 10rem; /* Minimal adjustment for extra-small screens */
       width: 23vw; /* Maximize width for very small screens */
       bottom: 5rem;
-      font-size: 0.4rem;
-      
+      font-size: 0.4rem;    
     }
   }
 `;
 
 export const RviceContent = styled.div`
   text-align: left;
+
+  @media (max-width: 1024px) {
+    position: relative; 
+    right: 67.3rem;
+    width: 90vw; /* Adjust width for medium screens */
+    max-width: 1000vw; /* Adjust width for medium screens */
+    top: 185px; /* Adjust position */
+  }
 
  h3 {
     position: relative;
@@ -569,8 +623,10 @@ export const RviceContent = styled.div`
 
     @media (max-width: 1024px) {
       left: 4rem; /* Adjust left position for medium screens */
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       bottom: 6rem;
+      width: 32rem;
+
     }
 
     @media (max-width: 768px) {
@@ -608,8 +664,9 @@ export const RviceContent = styled.div`
 
     @media (max-width: 1024px) {
       left: 4rem;
-      width: 30vw;
-      bottom: 5rem;
+      width: 90vw;
+      bottom: 5.2rem;
+      font-size: 1.19rem;
     }
 
     @media (max-width: 768px) {
@@ -640,6 +697,16 @@ export const RviceContent = styled.div`
 
 export const ViceContent = styled.div`
   text-align: left;
+  position: relative; 
+  right: 29rem;
+
+  @media (max-width: 1024px) {
+    position: relative; 
+    top: 10rem;
+    left: 4.3rem;
+    width: 90vw; /* Adjust width for medium screens */
+    max-width: 1000vw; /* Adjust width for medium screens */
+  }
 
   h3 {
     position: relative;
@@ -651,9 +718,10 @@ export const ViceContent = styled.div`
     width: 17rem;
 
     @media (max-width: 1024px) {
-      right: 4.5rem; /* Adjust position for medium screens */
-      font-size: 1.4rem;
-      bottom: 6.5rem; /* Reduce bottom margin */
+      right: 99.8rem; /* Adjust position for medium screens */
+      font-size: 1.8rem;
+      width: 27rem;
+      top: 1.8rem; /* Reduce bottom margin */
     }
 
     @media (max-width: 768px) {
@@ -688,16 +756,18 @@ export const ViceContent = styled.div`
     bottom: 7.9rem;
 
     @media (max-width: 1024px) {
-      right: 4.5rem;
-      width: 30vw;
-      bottom: 6.5rem;
+      right: 99.8rem;
+      width: 87vw;
+      top: 1.8rem;
+      font-size: 1.19rem;
+
     }
 
     @media (max-width: 768px) {
       right: 16rem;
       width: 35vw; /* Increase width for tablets */
       bottom: 16rem;
-      font-size: 0.9rem;
+      font-size: 1.19rem;
       text-align: left;
     }
 

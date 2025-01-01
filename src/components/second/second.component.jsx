@@ -1,8 +1,8 @@
 import React from 'react';
-import Sand from '../../assets/Second1.png';
-import Secondgirl from '../../assets/Second2.png';
-import Thirdgirl from '../../assets/Second3.png';
-import Fourthgirl from '../../assets/Second4.png'; 
+import Sand from '../../assets/newO.png';
+import Secondgirl from '../../assets/S2S.png';
+import Thirdgirl from '../../assets/2S2S.png';
+import Fourthgirl from '../../assets/3S2S.png'; 
 
 import { ServicesSection, Title, ServiceCard, ErviceCard, RviceCard, ViceCard, ServiceImage, ErviceImage, RviceImage, ViceImage, ServiceContent, ErviceContent, RviceContent, ViceContent     } from './second.styles';
 
@@ -41,14 +41,15 @@ const Second = () => {
       </RviceCard>
 
       <ViceCard>
+      <ViceImage src={Fourthgirl} alt="Outfit Suggestion" />  
         <ViceContent>
           <h3>Realistic Fit and Size Guide</h3>
           <p>
           The app analyzes the user’s uploaded photo and matches it with the product dimensions from the link to provide a realistic fit visualization.
           </p>
         </ViceContent>
-        <ViceImage src={Fourthgirl} alt="Outfit Suggestion" />
       </ViceCard>
+
     </ServicesSection>
   );
 };

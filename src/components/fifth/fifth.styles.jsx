@@ -9,10 +9,19 @@ export const Container = styled.div`
   border-radius: 11px;
   width: 100%;
   height: 28rem;
-  max-width: 1080px;
+  max-width: 4080px;
   margin: 3rem 6rem;
   position: relative;
-  top: 24rem;
+  top: 23.5rem;
+
+   @media (max-width: 1024px) {
+    position: relative;
+    right: 2.6rem;
+    width: 140rem;
+    height: 37rem;
+    top: 62.8rem;
+    text-align: center;
+  }
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -27,7 +36,9 @@ export const TextSection = styled.div`
   padding-bottom: 1rem;
   padding-left: 2rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
+    position: relative;
+    right: 3rem;
     max-width: 100%;
   }
 `;
@@ -38,6 +49,11 @@ export const Title = styled.h1`
   margin-bottom: 1rem;
   color: #000;
   width: 30rem;
+
+   @media (max-width: 1024px) {
+    width: 40rem;
+    font-size: 2.3rem;
+  }
 
   @media (max-width: 768px) {
     font-size: 2rem;
@@ -50,6 +66,11 @@ export const Subtitle = styled.p`
   margin-bottom: 2rem;
   width: 33rem;
   line-height: 1.5rem;
+
+  @media (max-width: 1024px) {
+    width: 47rem;
+    font-size: 1.19rem;
+  }
 
   @media (max-width: 768px) {
     font-size: 0.9rem;
@@ -66,6 +87,13 @@ export const DownloadButton = styled.div`
   font-size: 1rem;
   cursor: pointer;
   font-weight: bold;
+
+  @media (max-width: 1024px) {
+    position: relative;
+    right: 2.5rem;
+    max-width: 100%;
+    margin-top: 2rem;
+  }
 `;
 
 export const Icon = styled.img`

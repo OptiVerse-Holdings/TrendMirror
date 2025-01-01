@@ -7,10 +7,18 @@ export const FAQSection = styled.section`
   left: 9.7rem;
   top: 17rem;
   
+ @media (max-width: 1024px) {
+    position: relative;
+    text-align: center;
+    left: 8rem;
+    top: 101rem;
+  }
+
   @media (max-width: 768px) {
     position: relative;
     text-align: center;
     left: 8rem;
+    top: 20rem;
   }
 
    @media (max-width: 480px) {
@@ -44,6 +52,7 @@ export const SectionTitle = styled.h1`
   @media (max-width: 1024px) {
     position: relative;
     font-size: 2rem;
+    right: 6rem;
   }
 
   @media (max-width: 768px) {
@@ -89,6 +98,7 @@ export const SectionSubtitle = styled.p`
   @media (max-width: 1024px) {
     position: relative;
     font-size: 1.1rem;
+    right: 5.9rem;
   }
   
   @media (max-width: 768px) {
@@ -124,9 +134,9 @@ export const FAQContainer = styled.div`
 
    @media (max-width: 1024px) {
   position: relative;
-  width: 700px;
+  width: 890px;
   margin: 0 auto;
-  right: 1.7rem;
+  right: 5.8rem;
   }
 
    @media (max-width: 768px) {
@@ -178,6 +188,11 @@ export const FAQHeader = styled.div`
   font-size: 1.2rem;
   font-weight: bold;
 
+  @media (max-width: 1024px) {
+  position: relative;
+  font-size: 1.37rem;
+  }
+
   @media (max-width: 480px) {
   position: relative;
   font-size: 0.9rem;
@@ -201,6 +216,11 @@ export const FAQContent = styled.div`
   border-top: 1px solid #ddd;
   text-align: left; /* Align text to the left */
   display: ${(props) => (props.isOpen ? 'block' : 'none')};
+  
+  @media (max-width: 1024px) {
+  position: relative;
+  font-size: 1.19rem;
+  }
 
   @media (max-width: 480px) {
   position: relative;

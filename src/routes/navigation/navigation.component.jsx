@@ -13,7 +13,7 @@ const Navigation = () => {
     <Fragment>
     <HeroContainer>
       <Header>
-        <Brand>TrendMirror</Brand>
+        <Brand>Steezely</Brand>
         <MenuButton>☰</MenuButton>
       </Header>
     </HeroContainer>
