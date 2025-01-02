@@ -30,7 +30,7 @@ export const FeaturesSection = styled.section`
   text-align: center;
   background-color: #f3f2fe;
   bottom: 7.8rem;
-  height: 33rem; /* Make height adaptive */
+  height: 55rem; /* Make height adaptive */
   width: 100%;
 
   /* Large screens (Desktops and larger laptops) */
@@ -58,15 +58,25 @@ export const FeaturesSection = styled.section`
 
   /* Mobile screens */
   @media (max-width: 480px) {
-    bottom: 2rem;
+    bottom: 24rem;
     padding: 0 1rem;
+    height: 51.3rem; /* Make height adaptive */
     width: 100%; /* Fit within smaller screens */
   }
 
   /* Very small mobile screens */
-  @media (max-width: 350px) {
-    bottom: 1.5rem;
+  @media (max-width: 400px) {
+    bottom: 27rem;
+    padding: 0 1rem;
+    height: 49rem; /* Make height adaptive */
+    width: 100%; /* Fit within smaller screens */
+  }
+
+  /* Very small mobile screens */
+  @media (max-width: 360px) {
+    bottom: 29rem;
     padding: 0 0.5rem;
+    height: 50rem; /* Make height adaptive */
     width: 100%; /* Full width for compact screens */
   }
 `;
@@ -90,13 +100,30 @@ export const Title = styled.h2`
   }
 
   @media (max-width: 480px) {
-    font-size: 0.9rem; /* Smaller font size for mobile devices */
-    margin-bottom: 1.5rem; /* Adjust margin for small screens */
+    position: relative;
+    width: 22rem;
+    left: 0.5rem;
+    padding-left: 0.4rem;
+    font-size: 0.9rem; /* Smallest font size for extra-small screens */
+    padding-top: 1.4rem; /* Reduce margin for very small devices */
   }
 
-  @media (max-width: 350px) {
-    font-size: 0.7rem; /* Smallest font size for extra-small screens */
-    margin-bottom: 1rem; /* Reduce margin for very small devices */
+   @media (max-width: 400px) {
+    position: relative;
+    width: 35rem;
+    right: 5rem;
+    left: 0.2rem;
+    padding-right: 16.55rem;
+    font-size: 0.9rem; /* Smallest font size for extra-small screens */
+    padding-top: 1.4rem; /* Reduce margin for very small devices */
+    }
+
+  @media (max-width: 360px) {
+    position: relative;
+    width: 34rem;
+    padding-left: 0.5rem;
+    font-size: 0.9rem; /* Smallest font size for extra-small screens */
+    padding-top: 1.4rem; /* Reduce margin for very small devices */
   }
 `;
 
@@ -142,17 +169,29 @@ export const DSubtext = styled.p`
 
   /* Mobile screens */
   @media (max-width: 480px) {
-    left: 0.5rem;
-    width: 95%;
+    left: 0.1rem;
+    padding-right: 4.5rem;
+    width: 120%;
     font-size: 0.7rem; /* Smaller font size for mobile devices */
     margin-bottom: 1rem;
-    bottom: 2px; /* Adjust position */
+    bottom: 9px; /* Adjust position */
+  }
+
+   /* Mobile screens */
+  @media (max-width: 400px) {
+    left: 0.2rem;
+    padding-right: 6rem;
+    width: 129%;
+    top: 0.5rem;
+    font-size: 0.6rem; /* Smaller font size for mobile devices */
+    margin-bottom: 1rem;
+    bottom: 9px; /* Adjust position */
   }
 
   /* Very small mobile screens */
-  @media (max-width: 350px) {
-    left: 0.2rem;
-    width: 100%; /* Full width for compact screens */
+  @media (max-width: 360px) {
+    left: 0.1rem;
+    width: 130%; /* Full width for compact screens */
     font-size: 0.6rem; /* Smallest font size for very small screens */
     margin-bottom: 0.8rem;
   }
@@ -179,7 +218,12 @@ export const FeaturesGrid = styled.div`
 
   /* Mobile screens */
   @media (max-width: 480px) {
-    gap: 0.8rem; /* Smaller gap for mobile devices */
+    gap: 1.3rem; /* Smaller gap for mobile devices */
+  }
+
+  /* Mobile screens */
+  @media (max-width: 400px) {
+    gap: 1.3rem; /* Smaller gap for mobile devices */
   }
 
   /* Very small mobile screens */
@@ -222,17 +266,30 @@ export const FeatureCard = styled.div`
 
   /* Mobile screens */
   @media (max-width: 480px) {
-    max-width: 300px; /* Smaller width for mobile devices */
+    border-radius: 10px;
+    max-width: 600rem; /* Smaller width for mobile devices */
     padding: 1rem;
-    width: 100%; /* Full width within container */
-    height: 14rem; /* Adjust height for smaller devices */
+    margin-right: 1rem;
+    width: 24rem; /* Full width within container */
+    height: 12.5rem; /* Adjust height for smaller devices */
+  }
+
+   /* Mobile screens */
+  @media (max-width: 400px) {
+    border-radius: 10px;
+    max-width: 600rem; /* Smaller width for mobile devices */
+    padding: 1rem;
+    margin-right: 1rem;
+    width: 22rem; /* Full width within container */
+    height: 12rem; /* Adjust height for smaller devices */
   }
 
   /* Very small mobile screens */
-  @media (max-width: 350px) {
-    max-width: 250px; /* Minimal width for very small screens */
+  @media (max-width: 360px) {
+    border-radius: 10px;
+    max-width: 600rem; /* Minimal width for very small screens */
     padding: 0.8rem; /* Compact padding */
-    width: 100%; /* Full width within container */
+    width: 21rem; /* Full width within container */
     height: 12rem; /* Further reduce height */
   }
 `;
@@ -261,10 +318,20 @@ export const FeatureImage = styled.img`
 
   /* Mobile screens */
   @media (max-width: 480px) {
-    right: 0.8rem; /* Adjust position */
-    width: 100%; /* Full width within container */
-    height: 6rem; /* Reduce height for mobile devices */
-    bottom: 1rem; /* Adjust vertical position */
+    position: relative;
+    right: 0.2rem; /* Adjust position */
+    width: 13%; /* Full width within container */
+    height: 3rem; /* Reduce height for mobile devices */
+    top: 0.8rem; /* Adjust vertical position */
+  }
+
+    /* Mobile screens */
+  @media (max-width: 400px) {
+    position: relative;
+    right: 0.3rem; /* Adjust position */
+    width: 13%; /* Full width within container */
+    height: 3rem; /* Reduce height for mobile devices */
+    top: 0.8rem; /* Adjust vertical position */
   }
 
   /* Very small mobile screens */
@@ -302,17 +369,27 @@ export const FeatureTitle = styled.h3`
 
   /* Mobile screens */
   @media (max-width: 480px) {
+    left: 4rem;
     top: 0.5rem; /* Adjust position for smaller screens */
     font-size: 0.9rem; /* Reduce font size for mobile */
-    width: 100%; /* Full width within container */
+    width: 60%; /* Full width within container */
+    text-align: center;
+  }
+
+    /* Mobile screens */
+  @media (max-width: 400px) {
+    left: 4rem;
+    top: 0.5rem; /* Adjust position for smaller screens */
+    font-size: 0.9rem; /* Reduce font size for mobile */
+    width: 60%; /* Full width within container */
     text-align: center;
   }
 
   /* Very small mobile screens */
-  @media (max-width: 350px) {
+  @media (max-width: 360px) {
     top: 0.3rem; /* Minimal adjustment */
     font-size: 0.8rem; /* Small font size for very small screens */
-    width: 95%; /* Slightly narrower width */
+    width: 60%; /* Slightly narrower width */
     text-align: center;
   }
 `;
@@ -341,13 +418,30 @@ export const FeatureDescription = styled.p`
   }
 
   @media (max-width: 480px) {
+    position: relative;
+    padding-right: 26rem;
+    text-align: center;
+    left: 0.01rem;
     bottom: 1.4rem; /* Adjust for mobile screens */
     font-size: 0.52rem; /* Smaller font size for mobiles */
   }
 
-  @media (max-width: 350px) {
+   @media (max-width: 400px) {
+    position: relative;
+    padding-right: 28rem;
+    text-align: center;
+    left: 0.5rem;
+    top: 1rem; /* Adjust for mobile screens */
+    font-size: 0.52rem; /* Smaller font size for mobiles */
+  }
+
+  @media (max-width: 360px) {
+    position: relative;
+    padding-right: 28.8rem;
+    text-align: center;
+    left: 0.1rem;
     bottom: 1.6rem; /* Minimal adjustment for extra-small screens */
-    font-size: 0.37rem; /* Minimal font size for very small screens */
+    font-size: 0.5rem; /* Minimal font size for very small screens */
   }
 `;
 

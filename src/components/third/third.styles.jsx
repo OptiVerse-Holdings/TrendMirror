@@ -35,6 +35,11 @@ export const TestimonialSection = styled.section`
     padding: 2rem 0.5rem; /* Smaller padding for smaller screens */
   }
 
+  @media (max-width: 400px) {
+    padding: 1rem 0.5rem; /* Tight padding for very small screens */
+    padding-bottom: 1rem;
+    }
+
    @media (max-width: 370px) {
     padding: 1rem 0.5rem; /* Tight padding for very small screens */
     padding-bottom: 6rem;
@@ -42,7 +47,7 @@ export const TestimonialSection = styled.section`
 
    @media (max-width: 360px) {
     padding: 1rem 0.5rem; /* Tight padding for very small screens */
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
     } 
 
   @media (max-width: 350px) {
@@ -117,12 +122,25 @@ export const SectionTitle = styled.h2`
 }
 
   @media (max-width: 480px) {
-    font-size: 0.7rem;
-    margin-bottom: 0.8rem;
+    position: relative;
+    font-size: 1.5rem;
+    bottom: 3rem;
+    margin-bottom: 0.1rem;
     padding: 0 0.5rem; 
-    padding-right: 50rem; 
-
+    padding-right: 52rem; 
+    right: 0.9rem;
   }
+
+  @media (max-width: 400px) {
+    position: relative;
+    font-size: 1.4rem;
+    bottom: 3rem;
+    margin-bottom: 0.1rem;
+    padding: 0 0.5rem; 
+    right: 3.1rem;
+    padding-right: 50rem; 
+  }
+
  @media (max-width: 370px) {
     font-size: 0.8rem;
     margin-bottom: .6rem; /* Reduce bottom margin */
@@ -131,10 +149,13 @@ export const SectionTitle = styled.h2`
 }
   
  @media (max-width: 360px) {
-    font-size: 0.8rem;
-    margin-bottom: .6rem; /* Reduce bottom margin */
+    position: relative;
+    font-size: 1.3rem;
+    bottom: 3rem;
+    margin-bottom: 0.1rem;
     padding: 0 0.5rem; 
-    padding-right: 57.5rem; 
+    right: 3.7rem;
+    padding-right: 50rem; 
 }
 
   @media (max-width: 350px) {
@@ -233,7 +254,7 @@ export const QuoteIcon = styled.img`
    @media (max-width: 480px) {
     position: absolute;
     top: 5rem;
-    right: 87px;
+    right: 163px;
     width: 2.2rem;
   }
 

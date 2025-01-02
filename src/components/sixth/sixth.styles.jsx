@@ -7,9 +7,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #473678;
-  width: 90rem;
+  width: 60rem;
   top: 28rem;
-  height: 66rem;
+  height: 54rem;
 ;
 `;
   // border-top: 1px solid #d3d3d3; /* Light grey line on top */
@@ -91,6 +91,13 @@ export const FooterGrid = styled.div`
   position: relative; /* Switch to absolute positioning */
   gap: 1px;
 }
+
+  @media (max-width: 480px) {
+  position: relative; /* Switch to absolute positioning */
+  gap: 1px;
+  bottom: 2rem;
+  left: 2.8rem;
+}
 `;
 
 export const FooterSection = styled.div`
@@ -100,7 +107,14 @@ export const FooterSection = styled.div`
 
   @media (max-width: 1024px) {
   position: relative; /* Switch to absolute positioning */
-  right: 1rem
+  right: 1rem 
+ }
+
+  @media (max-width: 480px) {
+  position: relative; /* Switch to absolute positioning */
+  right: 1rem;
+
+ }
   `;
 
 export const FoterSection = styled.div`
@@ -110,7 +124,28 @@ export const FoterSection = styled.div`
 
   @media (max-width: 1024px) {
   position: relative; /* Switch to absolute positioning */
-  right: 3.3rem
+  right: 3.3rem;
+
+  @media (max-width: 480px) {
+   position: relative; /* Switch to absolute positioning */
+   padding-left: 1rem;
+   right: 24.9rem;
+   top: 12rem;
+  }
+
+   @media (max-width: 400px) {
+   position: relative; /* Switch to absolute positioning */
+   padding-left: 1rem;
+   right: 22.9rem;
+   top: 12rem;
+  }
+
+   @media (max-width: 360px) {
+   position: relative; /* Switch to absolute positioning */
+   padding-left: 1rem;
+   right: 21.9rem;
+   top: 12rem;
+  }
   `;
 
   export const PoterSection = styled.div`
@@ -121,6 +156,14 @@ export const FoterSection = styled.div`
   @media (max-width: 1024px) {
   position: relative; /* Switch to absolute positioning */
   right: 2.5rem
+ }
+
+    @media (max-width: 480px) {
+  position: relative; /* Switch to absolute positioning */
+  padding-left: 1rem;
+  right: 24.9rem;
+  top: 12rem;
+ }
   `;
 
   export const MoterSection = styled.div`
@@ -131,6 +174,25 @@ export const FoterSection = styled.div`
   @media (max-width: 1024px) {
   position: relative; /* Switch to absolute positioning */
   right: 6rem
+ }
+
+  @media (max-width: 480px) {
+  padding-left: 1rem;
+  right: 57rem;
+  top: 25rem;
+}
+
+@media (max-width: 400px) {
+  padding-left: 1rem;
+  right: 55rem;
+  top: 25rem;
+}
+
+@media (max-width: 360px) {
+  padding-left: 1rem;
+  right: 54rem;
+  top: 25rem;
+}
   `;
 
 export const FooterTitle = styled.h3`
@@ -140,6 +202,8 @@ export const FooterTitle = styled.h3`
   margin-bottom: 38px;
   bottom: 5rem;
   color: white;
+
+ 
 `;
 
 export const Footer1 = styled.h3`
@@ -156,6 +220,25 @@ export const Footer1 = styled.h3`
    left: 15.7rem;
    bottom: 3rem;
   }
+
+   @media (max-width: 480px) {
+  padding-left: 1rem;
+  left: 2rem;
+  top: 17rem;
+}
+
+  @media (max-width: 400px) {
+  padding-left: 1rem;
+  left: 0.1rem;
+  top: 17rem;
+}
+
+  @media (max-width: 360px) {
+  position: relative;
+  padding-left: 1rem;
+  right: 5rem;
+  top: 17rem;
+}
 `;
 
 export const Footer2= styled.p`
@@ -163,7 +246,7 @@ export const Footer2= styled.p`
   font-size: 14px;
   line-height: 1.4;
   color: white;
-  bottom: 5rem;
+  bottom: 6rem;
   width: 15rem;
 `;
 
@@ -182,7 +265,34 @@ export const OoterText = styled.p`
   line-height: 1.6;
   color: white;
   bottom: 7rem;
-  width: 15rem;
+  width: 23rem;
+
+  @media (max-width: 480px) {
+    position: relative;
+  font-size: 14px;
+  line-height: 1.6;
+  color: white;
+  bottom: 7rem;
+  width: 23rem;
+}
+
+@media (max-width: 400px) {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.6;
+  color: white;
+  bottom: 7rem;
+  width: 21rem;
+}
+
+@media (max-width: 360px) {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.6;
+  color: white;
+  bottom: 7rem;
+  width: 20rem;
+}
 `;
 
 export const FooterBrand = styled.h2`

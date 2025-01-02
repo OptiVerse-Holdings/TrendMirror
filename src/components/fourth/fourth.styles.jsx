@@ -23,24 +23,21 @@ export const FAQSection = styled.section`
 
    @media (max-width: 480px) {
     position: relative;
-    left: 4.3rem;
+    left: 2.7rem;
+    top: 110rem;
   }
 
-  
-   @media (max-width: 370px) {
+   @media (max-width: 400px) {
     position: relative;
-    left: 4.3rem;
+    left: 2.1rem;
+    top: 113rem;
   }
   
    @media (max-width: 360px) {
     position: relative;
-    left: 5.3rem;
-  }
+    left: 4.5rem;
+    top: 119rem;
 
-  
-   @media (max-width: 350px) {
-    position: relative;
-    left: 4.3rem;
   }
 `;
 
@@ -63,21 +60,21 @@ export const SectionTitle = styled.h1`
 
    @media (max-width: 480px) {
     position: relative;
-    font-size: 1.45rem;
-    right: 3.3rem;
+    font-size: 1.55rem;
+    right: 4.1rem;
   }
-  
-    @media (max-width: 370px) {
+
+  @media (max-width: 400px) {
     position: relative;
-    font-size: 0.8rem;
-    right: 4.3rem;
-    bottom: 10rem;
+    font-size: 1.4rem;
+    right: 3.7rem;
+    bottom: 0.1rem;
   }
 
    @media (max-width: 360px) {
     position: relative;
-    font-size: 0.8rem;
-    right: 4.3rem;
+    font-size: 1.4rem;
+    right: 6.3rem;
     bottom: 10rem;
   }
 
@@ -109,14 +106,21 @@ export const SectionSubtitle = styled.p`
 
    @media (max-width: 480px) {
     position: relative;
-    font-size: 0.8rem;
-    right: 3.3rem;
+    font-size: 0.9rem;
+    right: 3.8rem;
   }
 
-      @media (max-width: 360px) {
+   @media (max-width: 400px) {
     position: relative;
-    font-size: 0.4rem;
-    right: 4.3rem;
+    font-size: 0.7rem;
+    right: 4rem;
+    bottom: 0.6rem;
+  }
+
+  @media (max-width: 360px) {
+    position: relative;
+    font-size: 0.7rem;
+    right: 6rem;
     bottom: 10.8rem;
   }
 
@@ -148,16 +152,23 @@ export const FAQContainer = styled.div`
 
   @media (max-width: 480px) {
   position: relative;
-  width: 360px;
+  width: 370px;
   margin: 0 auto;
-  right: 3.1rem;
+  right: 3.9rem;
   }
 
-    @media (max-width: 360px) {
+  @media (max-width: 400px) {
   position: relative;
-  width: 260px;
+  width: 353px;
   margin: 0 auto;
   right: 4.1rem;
+  bottom: 1rem;
+  }
+    @media (max-width: 360px) {
+  position: relative;
+  width: 330px;
+  margin: 0 auto;
+  right: 6.3rem;
   bottom: 11.4rem;
   }
 
@@ -224,6 +235,17 @@ export const FAQContent = styled.div`
 
   @media (max-width: 480px) {
   position: relative;
+  }
+
+   @media (max-width: 400px) {
+  position: relative;
+  font-size: 0.8rem;
+
+  }
+
+   @media (max-width: 360px) {
+  position: relative;
+  font-size: 0.8rem;
   }
 `;
 

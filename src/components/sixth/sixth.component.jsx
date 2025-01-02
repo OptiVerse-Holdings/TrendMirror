@@ -58,7 +58,7 @@ const Sixth = () => {
       <FooterGrid>
         {/* Brand Section */}
         <FooterSection>
-          <FooterBrand>TrendMirror</FooterBrand>
+          <FooterBrand>Steezely</FooterBrand>
           <OoterText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
@@ -92,7 +92,7 @@ const Sixth = () => {
           <LoadAppButton />
         </MoterSection>
 
-          <Footer1>TrendMirror</Footer1>
+          <Footer1>Steezely</Footer1>
       </FooterGrid>
     </Container>
   );

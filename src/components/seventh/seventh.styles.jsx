@@ -38,7 +38,7 @@ export const Content = styled.div`
     gap: 0.8rem;
   }
 
-  @media (max-width: 350px) {
+  @media (max-width: 360px) {
     bottom: 30px;
     gap: 0.4rem;
   }
@@ -64,14 +64,20 @@ export const TextContent = styled.div`
   }
 
   @media (max-width: 480px) {
-    bottom: 6rem;
+    top: 3rem;
     left: 1.5rem;
     max-width: 90%;
   }
 
-  @media (max-width: 350px) {
-    bottom: 14rem;
-    left: 1rem;
+   @media (max-width: 400px) {
+    top: 3.5rem;
+    left: 1.5rem;
+    max-width: 90%;
+  }
+
+  @media (max-width: 360px) {
+    top: 2rem;
+    left: 1.4rem;
     max-width: 100%;
   }
 `;
@@ -104,11 +110,12 @@ export const Heading = styled.h2`
     text-align: left;
   }
 
-  @media (max-width: 350px) {
-    font-size: 2rem;
-    width: 95%;
-    bottom: 3rem;
-    right: 3.4rem;
+  @media (max-width: 360px) {
+    position: relative;
+    font-size: 2.5rem;
+    width: 110%;
+    right: 3.8rem;
+    bottom: 4rem;
     text-align: left;
   }
 `;
@@ -142,7 +149,7 @@ export const Subtext = styled.p`
   @media (max-width: 480px) {
     position: relative;
     font-size: 0.8rem;
-    width: 25.5rem;
+    width: 24.6rem;
     line-height: 1.1rem;
     bottom: 4.3rem;
     right: 3.7rem;
@@ -184,7 +191,7 @@ export const DownloadButton = styled.a`
     bottom: 40px;
   }
 
-  @media (max-width: 350px) {
+  @media (max-width: 360px) {
     bottom: 35px;
   }
 `;
@@ -210,19 +217,19 @@ export const Icon = styled.img`
 
    @media (max-width: 400px) {
     position: relative;
-    width: 90px;
-    height: 33px;
-    margin-right: 4px;
+    width: 5rem;
+    height: 2rem;
+    margin-right: 7rem;
     right: 3.8rem;
     bottom: 2.2rem;
   }
 
-   @media (max-width: 350px) {
+   @media (max-width: 360px) {
     position: relative;
-    width: 80px;
-    height: 32px;
-    right: 54px;
-    bottom: 1.2rem;
+    width: 5rem;
+    height: 1.8em;
+    right: 3.7rem;
+    bottom: 2.5217rem;
   }
 `;
 
@@ -235,13 +242,29 @@ export const ImageContent = styled.div`
   }
 
   @media (max-width: 480px) {
+    position: relative;
     flex-wrap: wrap;
+    margin-right: 0.26rem;
+    right: 11rem;
+    top: 0.1rem;
   }
+
+   @media (max-width: 400px) {
+    position: relative;
+    right: 11rem;
+    margin-top: 3rem;
+  }
+
+ @media (max-width: 360px) {
+    position: relative;
+    right: 11.5rem;
+    top: 0.1rem;
+  }  
 `;
 
 export const ModelImage = styled.img`
   position: relative;
-  max-width: 150%;
+  max-width: 150rem;
   height: 25rem;
   bottom: 12px;
   left: 9rem;
@@ -251,10 +274,20 @@ export const ModelImage = styled.img`
   }
 
   @media (max-width: 480px) {
-    height: 20rem;
+    height: 23rem;
+    width: 24rem;
+    bottom: 2rem;
   }
 
-  @media (max-width: 350px) {
-    height: 15rem;
+  @media (max-width: 400px) {
+    height: 20rem;
+    width: 21rem;
+    bottom: 5rem;
+  }
+
+  @media (max-width: 360px) {
+    height: 20rem;
+    width: 21rem;
+    bottom: 7rem;
   }
 `;

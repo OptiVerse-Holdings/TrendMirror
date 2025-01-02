@@ -1,16 +1,5 @@
 import styled, { keyframes } from 'styled-components';
 
-const wordFadeIn = keyframes`
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-`;
-
 export const HeroContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -128,7 +117,13 @@ export const Brand = styled.h1`
 
   @media (max-width: 480px) {
     font-size: 1.3rem;
-    margin-top: 0.5rem;
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 1.3rem;
+    margin-top: 1.1rem;
     margin-left: 1rem;
   }
 
@@ -158,6 +153,13 @@ export const MenuButton = styled.button`
   @media (max-width: 480px) {
     font-size: 1.2rem;
     margin-right: 1rem;
+    margin-top: 1.7rem;
+  }
+
+   @media (max-width: 400px) {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-top: 0.9rem;
   }
 
   @media (max-width: 360px) {
