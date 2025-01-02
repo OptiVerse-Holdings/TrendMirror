@@ -47,11 +47,11 @@ export const Container = styled.div`
 
   @media (max-width: 400px) {
   width: 95%;
-  height: 22rem;
+  height: 19rem;
   max-width: 4080px;
   margin: 3rem 6rem;
   position: relative;
-  top: 54rem;
+  top: 55rem;
   right: 5.4rem;
   }
 
@@ -61,7 +61,7 @@ export const Container = styled.div`
   max-width: 4080px;
   margin: 3rem 6rem;
   position: relative;
-  top: 50rem;
+  top: 52rem;
   right: 5.3rem;
   }
 `;
@@ -80,22 +80,22 @@ export const TextSection = styled.div`
 
   @media (max-width: 480px) {
     position: relative;
-    top: 4.2rem;
+    top: 2.9rem;
     right: 3rem;
     max-width: 100%;
   }
 
   @media (max-width: 400px) {
     position: relative;
-    top: 4.2rem;
-    right: 3rem;
+    top: 3.2rem;
+    right: 4.4rem;
     max-width: 100%;
   }
 
   @media (max-width: 360px) {
     position: relative;
-    top: 4.2rem;
-    right: 3rem;
+    top: 2.8rem;
+    right: 4rem;
     max-width: 100%;
   }
 `;
@@ -160,25 +160,26 @@ export const Subtitle = styled.p`
   @media (max-width: 480px) {
     position: relative;
     left: 1.1rem;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     width: 110%;
-    line-height: 0.8rem;
+    line-height: 1.3rem;
   }
 
    @media (max-width: 400px) {
     position: relative;
     left: 1.1rem;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     width: 120%;
-    line-height: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: bold;
   }
 
   @media (max-width: 360px) {
     position: relative;
     left: 1.1rem;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     width: 120%;
-    line-height: 0.8rem;
+    line-height: 1.1rem;
   }
 `;
 

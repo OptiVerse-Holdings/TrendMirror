@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: #473678;
   width: 60rem;
-  top: 28rem;
+  top: 26rem;
   height: 54rem;
 ;
 `;
@@ -223,20 +223,20 @@ export const Footer1 = styled.h3`
 
    @media (max-width: 480px) {
   padding-left: 1rem;
-  left: 2rem;
+  left: 1.2rem;
   top: 17rem;
 }
 
   @media (max-width: 400px) {
-  padding-left: 1rem;
-  left: 0.1rem;
+  padding-left: 0.1rem;
+  left: 0.4rem;
   top: 17rem;
 }
 
   @media (max-width: 360px) {
   position: relative;
-  padding-left: 1rem;
-  right: 5rem;
+  padding-left: 0.1rem;
+  right: 8rem;
   top: 17rem;
 }
 `;

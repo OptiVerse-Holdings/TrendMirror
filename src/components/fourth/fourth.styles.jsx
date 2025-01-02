@@ -30,14 +30,13 @@ export const FAQSection = styled.section`
    @media (max-width: 400px) {
     position: relative;
     left: 2.1rem;
-    top: 113rem;
+    top: 111.2rem;
   }
   
    @media (max-width: 360px) {
     position: relative;
     left: 4.5rem;
-    top: 119rem;
-
+    top: 124rem;
   }
 `;
 
@@ -61,7 +60,7 @@ export const SectionTitle = styled.h1`
    @media (max-width: 480px) {
     position: relative;
     font-size: 1.55rem;
-    right: 4.1rem;
+    right: 3.7rem;
   }
 
   @media (max-width: 400px) {
@@ -74,7 +73,7 @@ export const SectionTitle = styled.h1`
    @media (max-width: 360px) {
     position: relative;
     font-size: 1.4rem;
-    right: 6.3rem;
+    right: 5.8rem;
     bottom: 10rem;
   }
 
@@ -112,16 +111,19 @@ export const SectionSubtitle = styled.p`
 
    @media (max-width: 400px) {
     position: relative;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     right: 4rem;
     bottom: 0.6rem;
+    font-weight: bold;
   }
 
   @media (max-width: 360px) {
     position: relative;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     right: 6rem;
     bottom: 10.8rem;
+    font-weight: bold;
+
   }
 
     @media (max-width: 350px) {
@@ -154,21 +156,30 @@ export const FAQContainer = styled.div`
   position: relative;
   width: 370px;
   margin: 0 auto;
-  right: 3.9rem;
+  right: 3.3rem;
   }
 
   @media (max-width: 400px) {
   position: relative;
   width: 353px;
   margin: 0 auto;
-  right: 4.1rem;
+  right: 2.9rem;
   bottom: 1rem;
   }
-    @media (max-width: 360px) {
+
+@media (max-width: 376px) {
+  position: relative;
+  width: 353px;
+  margin: 0 auto;
+  right: 3.43rem;
+  bottom: 1rem;
+  }
+
+@media (max-width: 360px) {
   position: relative;
   width: 330px;
   margin: 0 auto;
-  right: 6.3rem;
+  right: 5.65rem;
   bottom: 11.4rem;
   }
 
@@ -211,7 +222,7 @@ export const FAQHeader = styled.div`
   
    @media (max-width: 360px) {
   position: relative;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   }
 
    @media (max-width: 350px) {
@@ -235,17 +246,18 @@ export const FAQContent = styled.div`
 
   @media (max-width: 480px) {
   position: relative;
+  font-size: 0.9rem;
   }
 
    @media (max-width: 400px) {
   position: relative;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 
   }
 
    @media (max-width: 360px) {
   position: relative;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   }
 `;
 

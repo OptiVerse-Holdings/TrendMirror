@@ -46,8 +46,10 @@ export const TestimonialSection = styled.section`
     }
 
    @media (max-width: 360px) {
+    position: relative;
     padding: 1rem 0.5rem; /* Tight padding for very small screens */
     padding-bottom: 6rem;
+    margin-top: 3rem;
     } 
 
   @media (max-width: 350px) {
@@ -128,7 +130,7 @@ export const SectionTitle = styled.h2`
     margin-bottom: 0.1rem;
     padding: 0 0.5rem; 
     padding-right: 52rem; 
-    right: 0.9rem;
+    right: 0.4rem;
   }
 
   @media (max-width: 400px) {
@@ -137,7 +139,7 @@ export const SectionTitle = styled.h2`
     bottom: 3rem;
     margin-bottom: 0.1rem;
     padding: 0 0.5rem; 
-    right: 3.1rem;
+    right: 2.65rem;
     padding-right: 50rem; 
   }
 
@@ -154,7 +156,7 @@ export const SectionTitle = styled.h2`
     bottom: 3rem;
     margin-bottom: 0.1rem;
     padding: 0 0.5rem; 
-    right: 3.7rem;
+    right: 3.3rem;
     padding-right: 50rem; 
 }
 

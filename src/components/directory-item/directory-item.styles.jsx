@@ -104,25 +104,36 @@ export const Title = styled.h2`
     width: 22rem;
     left: 0.5rem;
     padding-left: 0.4rem;
-    font-size: 0.9rem; /* Smallest font size for extra-small screens */
+    font-size: 1.2rem; /* Smallest font size for extra-small screens */
     padding-top: 1.4rem; /* Reduce margin for very small devices */
   }
 
    @media (max-width: 400px) {
     position: relative;
-    width: 35rem;
+    width: 38rem;
     right: 5rem;
     left: 0.2rem;
     padding-right: 16.55rem;
-    font-size: 0.9rem; /* Smallest font size for extra-small screens */
+    font-size: 1.2rem; /* Smallest font size for extra-small screens */
+    padding-top: 1.4rem; /* Reduce margin for very small devices */
+    }
+
+  @media (max-width: 376px) {
+    position: relative;
+    width: 38rem;
+    right: 5rem;
+    left: 0.1rem;
+    padding-right: 17.4rem;
+    font-size: 1.2rem; /* Smallest font size for extra-small screens */
     padding-top: 1.4rem; /* Reduce margin for very small devices */
     }
 
   @media (max-width: 360px) {
     position: relative;
-    width: 34rem;
-    padding-left: 0.5rem;
-    font-size: 0.9rem; /* Smallest font size for extra-small screens */
+    width: 44rem;
+    padding-right: 23rem;
+    right: 4rem;
+    font-size: 1.2rem; /* Smallest font size for extra-small screens */
     padding-top: 1.4rem; /* Reduce margin for very small devices */
   }
 `;
@@ -172,8 +183,9 @@ export const DSubtext = styled.p`
     left: 0.1rem;
     padding-right: 4.5rem;
     width: 120%;
-    font-size: 0.7rem; /* Smaller font size for mobile devices */
+    font-size: 0.9rem; /* Smaller font size for mobile devices */
     margin-bottom: 1rem;
+    top: 0.3rem;
     bottom: 9px; /* Adjust position */
   }
 
@@ -183,16 +195,18 @@ export const DSubtext = styled.p`
     padding-right: 6rem;
     width: 129%;
     top: 0.5rem;
-    font-size: 0.6rem; /* Smaller font size for mobile devices */
+    font-size: 1rem; /* Smaller font size for mobile devices */
     margin-bottom: 1rem;
     bottom: 9px; /* Adjust position */
   }
 
   /* Very small mobile screens */
   @media (max-width: 360px) {
+    position: relative;
     left: 0.1rem;
-    width: 130%; /* Full width for compact screens */
-    font-size: 0.6rem; /* Smallest font size for very small screens */
+    padding-right: 9rem;
+    width: 140%; /* Full width for compact screens */
+    font-size: 0.9rem; /* Smallest font size for very small screens */
     margin-bottom: 0.8rem;
   }
 `;
@@ -223,11 +237,13 @@ export const FeaturesGrid = styled.div`
 
   /* Mobile screens */
   @media (max-width: 400px) {
+    position: relative;
     gap: 1.3rem; /* Smaller gap for mobile devices */
   }
 
   /* Very small mobile screens */
   @media (max-width: 350px) {
+    position: relative;
     gap: 0.5rem; /* Minimal gap for compact layouts */
   }
 `;
@@ -271,7 +287,7 @@ export const FeatureCard = styled.div`
     padding: 1rem;
     margin-right: 1rem;
     width: 24rem; /* Full width within container */
-    height: 12.5rem; /* Adjust height for smaller devices */
+    height: 14rem; /* Adjust height for smaller devices */
   }
 
    /* Mobile screens */
@@ -281,7 +297,7 @@ export const FeatureCard = styled.div`
     padding: 1rem;
     margin-right: 1rem;
     width: 22rem; /* Full width within container */
-    height: 12rem; /* Adjust height for smaller devices */
+    height: 14rem; /* Adjust height for smaller devices */
   }
 
   /* Very small mobile screens */
@@ -290,7 +306,7 @@ export const FeatureCard = styled.div`
     max-width: 600rem; /* Minimal width for very small screens */
     padding: 0.8rem; /* Compact padding */
     width: 21rem; /* Full width within container */
-    height: 12rem; /* Further reduce height */
+    height: 13rem; /* Further reduce height */
   }
 `;
 export const FeatureImage = styled.img`
@@ -329,14 +345,14 @@ export const FeatureImage = styled.img`
   @media (max-width: 400px) {
     position: relative;
     right: 0.3rem; /* Adjust position */
-    width: 13%; /* Full width within container */
-    height: 3rem; /* Reduce height for mobile devices */
+    width: 12%; /* Full width within container */
+    height: 2rem; /* Reduce height for mobile devices */
     top: 0.8rem; /* Adjust vertical position */
   }
 
   /* Very small mobile screens */
   @media (max-width: 350px) {
-    right: 0.6rem; /* Center the image further */
+    right: 0.3rem; /* Center the image further */
     width: 95%; /* Slightly reduce width */
     height: 5rem; /* Reduce height for very small screens */
   }
@@ -369,27 +385,27 @@ export const FeatureTitle = styled.h3`
 
   /* Mobile screens */
   @media (max-width: 480px) {
-    left: 4rem;
+    left: 3rem;
     top: 0.5rem; /* Adjust position for smaller screens */
-    font-size: 0.9rem; /* Reduce font size for mobile */
-    width: 60%; /* Full width within container */
+    font-size: 1.1rem; /* Reduce font size for mobile */
+    width: 70%; /* Full width within container */
     text-align: center;
   }
 
     /* Mobile screens */
   @media (max-width: 400px) {
-    left: 4rem;
+    left: 2.4rem;
     top: 0.5rem; /* Adjust position for smaller screens */
-    font-size: 0.9rem; /* Reduce font size for mobile */
-    width: 60%; /* Full width within container */
+    font-size: 1.1rem; /* Reduce font size for mobile */
+    width: 76%; /* Full width within container */
     text-align: center;
   }
 
   /* Very small mobile screens */
   @media (max-width: 360px) {
     top: 0.3rem; /* Minimal adjustment */
-    font-size: 0.8rem; /* Small font size for very small screens */
-    width: 60%; /* Slightly narrower width */
+    font-size: 1rem; /* Small font size for very small screens */
+    width: 72%; /* Slightly narrower width */
     text-align: center;
   }
 `;
@@ -422,26 +438,28 @@ export const FeatureDescription = styled.p`
     padding-right: 26rem;
     text-align: center;
     left: 0.01rem;
-    bottom: 1.4rem; /* Adjust for mobile screens */
-    font-size: 0.52rem; /* Smaller font size for mobiles */
+    top: 1rem; /* Adjust for mobile screens */
+    font-size: 0.9rem; /* Smaller font size for mobiles */
   }
 
    @media (max-width: 400px) {
     position: relative;
     padding-right: 28rem;
     text-align: center;
-    left: 0.5rem;
+    left: 0.2rem;
+    font-weight: bold;
     top: 1rem; /* Adjust for mobile screens */
-    font-size: 0.52rem; /* Smaller font size for mobiles */
+    font-size: 0.9rem; /* Smaller font size for mobiles */
   }
 
   @media (max-width: 360px) {
     position: relative;
     padding-right: 28.8rem;
+    font-weight: bold;
     text-align: center;
     left: 0.1rem;
     bottom: 1.6rem; /* Minimal adjustment for extra-small screens */
-    font-size: 0.5rem; /* Minimal font size for very small screens */
+    font-size: 0.9rem; /* Minimal font size for very small screens */
   }
 `;
 

@@ -28,7 +28,7 @@ const DirectoryItem = () => {
 
   return (
     <FeaturesSection>
-      <Title>All the Tools You Need for Smarter Shopping</Title>
+      <Title>All the Tools You Need for a Smarter Shopping</Title>
       <DSubtext>
       {words.map((word, index) => (
               <span key={index} style={{ '--index': index }}>

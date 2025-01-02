@@ -65,19 +65,19 @@ export const TextContent = styled.div`
 
   @media (max-width: 480px) {
     top: 3rem;
-    left: 1.5rem;
+    left: 1.8rem;
     max-width: 90%;
   }
 
    @media (max-width: 400px) {
     top: 3.5rem;
-    left: 1.5rem;
+    left: 1.8rem;
     max-width: 90%;
   }
 
   @media (max-width: 360px) {
     top: 2rem;
-    left: 1.4rem;
+    left: 1.7rem;
     max-width: 100%;
   }
 `;
@@ -112,8 +112,8 @@ export const Heading = styled.h2`
 
   @media (max-width: 360px) {
     position: relative;
-    font-size: 2.5rem;
-    width: 110%;
+    font-size: 2.3rem;
+    width: 108%;
     right: 3.8rem;
     bottom: 4rem;
     text-align: left;
@@ -148,7 +148,7 @@ export const Subtext = styled.p`
 
   @media (max-width: 480px) {
     position: relative;
-    font-size: 0.8rem;
+    font-size: 1rem;
     width: 24.6rem;
     line-height: 1.1rem;
     bottom: 4.3rem;
@@ -157,7 +157,7 @@ export const Subtext = styled.p`
 
    @media (max-width: 400px) {
     position: relative;
-    font-size: 0.8rem;
+    font-size: 1rem;
     width: 22rem;
     line-height: 1rem;
     bottom: 4.5rem;
@@ -166,7 +166,7 @@ export const Subtext = styled.p`
 
   @media (max-width: 360px) {
     position: relative;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     width: 20rem;
     line-height: 1rem;
     bottom: 4.55rem;
@@ -245,19 +245,25 @@ export const ImageContent = styled.div`
     position: relative;
     flex-wrap: wrap;
     margin-right: 0.26rem;
-    right: 11rem;
+    right: 10.6rem;
     top: 0.1rem;
   }
 
    @media (max-width: 400px) {
     position: relative;
-    right: 11rem;
+    right: 10.35rem;
     margin-top: 3rem;
   }
 
+  @media (max-width: 390px) {
+    position: relative;
+    right: 9.85rem;
+    top: 0.1rem;
+  }  
+
  @media (max-width: 360px) {
     position: relative;
-    right: 11.5rem;
+    right: 10.8rem;
     top: 0.1rem;
   }  
 `;
